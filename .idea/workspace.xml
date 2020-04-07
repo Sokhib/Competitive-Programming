@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/HappyNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/HappyNumber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +90,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.HappyNumberKt">
+    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCode" />
+      <module name="CompetitiveProgramming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -130,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode.HouseRobberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Leetcode.HouseRobberKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -172,18 +165,18 @@
     <list>
       <item itemvalue="Kotlin.Codeforces" />
       <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
-      <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
       <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
       <item itemvalue="Kotlin.SingleNumberKt" />
       <item itemvalue="Kotlin.HappyNumberKt" />
+      <item itemvalue="Application.TestCode" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.HappyNumberKt" />
+        <item itemvalue="Application.TestCode" />
         <item itemvalue="Kotlin.SingleNumberKt" />
         <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
         <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
-        <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="LeetCode TwoSum solution:&#10;Straightforward solution. Brute force all elements and if sum of TWO DIFFERENT indexes is equal to target return" />
     <MESSAGE value="package change" />
     <MESSAGE value="Two Sum solution:&#10;using HashMap(memory++, speed--)&#10;for every element of array we subtract(-) from target and check our HashMap KEY if it contains this result. &#10;If it does not contain result we will add array element as KEY and it's index as VALUE. &#10;If HashMap contains result we return HashMap VALUE (index of element) and INDEX of current element we subtracted from target." />
     <MESSAGE value="Just replace . with [.] :)" />
@@ -485,7 +477,8 @@
     <MESSAGE value="Recap" />
     <MESSAGE value="April Challenge SingleNumber.kt solved." />
     <MESSAGE value="Solution with XOR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution with XOR" />
+    <MESSAGE value="HappyNumber.kt April Challenge solved with straightforward implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="HappyNumber.kt April Challenge solved with straightforward implementation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -512,10 +505,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1583926814363" />
-    <state x="107" y="52" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1586276997128">
+    <state x="107" y="52" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1586279794965">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="107" y="52" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586276997128" />
+    <state x="107" y="52" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586279794965" />
     <state x="189" y="27" width="977" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579178368973" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1583086500475">
       <screen x="0" y="0" width="1366" height="768" />
@@ -534,25 +527,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="250" key="GridCell.Tab.0.bottom" timestamp="1586279242998">
+    <state width="1320" height="250" key="GridCell.Tab.0.bottom" timestamp="1586280201034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586279242998" />
+    <state width="1320" height="250" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586280201034" />
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579268610486" />
-    <state width="1320" height="250" key="GridCell.Tab.0.center" timestamp="1586279242996">
+    <state width="1320" height="250" key="GridCell.Tab.0.center" timestamp="1586280201033">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586279242996" />
+    <state width="1320" height="250" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586280201033" />
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="250" key="GridCell.Tab.0.left" timestamp="1586279242995">
+    <state width="1320" height="250" key="GridCell.Tab.0.left" timestamp="1586280201032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586279242995" />
+    <state width="1320" height="250" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586280201032" />
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1579268610484" />
-    <state width="1320" height="250" key="GridCell.Tab.0.right" timestamp="1586279242997">
+    <state width="1320" height="250" key="GridCell.Tab.0.right" timestamp="1586280201033">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586279242997" />
+    <state width="1320" height="250" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586280201033" />
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
     <state width="1320" height="259" key="GridCell.Tab.1.bottom" timestamp="1586279241157">
       <screen x="0" y="0" width="1366" height="768" />
@@ -578,10 +571,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1586272614269" />
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1585498519083">
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1586280060978">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585498519083" />
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1586280060978" />
     <state x="172" y="4" key="SettingsEditor" timestamp="1586092176159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

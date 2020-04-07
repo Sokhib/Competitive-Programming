@@ -1,5 +1,6 @@
 package Leetcode.AprilChallenge
-
+// While number = 1 or found repeated number we can return how many repetitions were made.
+//This way we can replace while(true)
 object HappyNumber {
     fun isHappy(n: Int): Boolean {
         val visited = HashSet<Int>()
