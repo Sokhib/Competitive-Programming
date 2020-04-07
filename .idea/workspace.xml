@@ -2,95 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="`After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb.`">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF1180AKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF550CKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/BestTimeToBuyAndSellStockKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ClimbingStairsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/CountSquareSubmatricesWithAllOnesKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DecompressRunLengthEncodedListKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DefangingIPAddressKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/FindNumbersWithEvenNumberOfDigitsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/HouseRobberKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/IsSubsequenceKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/JewelsAndStonesKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Maximum69NumberKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/MinimumTimeVisitingAllPointsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ReverseArraysKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution121.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1221.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1266.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1277.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1281.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1323.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution189.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution198.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution392.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution70.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution771.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SplitStringInBalancedStringsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SubtractTheProductAndSumOfDigitsOfAnIntegerKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/TwoSumKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/MyAwesomeClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/TestKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AnimalEvent$DefaultImpls.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AnimalEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AwesomeCodemy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/BaseAnimal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Cats.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ClassesKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/CompanionObjectKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DataClassesKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$EAST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$NORTH.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$SOUTH.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$WEST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DontCreateInsFromMe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DontCreateInsFromMeAbs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/EnumClassKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit$Apple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit$Banana.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$onClickListener$$inlined$schedule$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/InterfacessKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/NestedInnerClassKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ObjSingletonKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt$main$student$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt$main$textView$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/OnTextChanged.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Photo$State.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Photo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/PropertyVsFieldKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$MedSchool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$TechSchool$ProgrammingSchool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$TechSchool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SealedClassKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ShapeKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SingletonObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SivasKangali.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/TextView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/WalkEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubset.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubsetKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/SingleNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt">
+  <component name="RunManager" selected="Kotlin.SingleNumberKt">
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -186,19 +100,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="CF1230A" />
       <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Codeforces.HalilPKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Codeforces.HalilPKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.AprilChallenge.SingleNumberKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hackerrank.NonDivisibleSubsetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -257,19 +171,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.Codeforces.HalilPKt" />
       <item itemvalue="Kotlin.Leetcode.ClimbingStairsKt" />
       <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
       <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
       <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
+      <item itemvalue="Kotlin.SingleNumberKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SingleNumberKt" />
         <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
         <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
         <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
         <item itemvalue="Kotlin.Leetcode.ClimbingStairsKt" />
-        <item itemvalue="Kotlin.Codeforces.HalilPKt" />
       </list>
     </recent_temporary>
   </component>
@@ -620,25 +534,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="225" key="GridCell.Tab.0.bottom" timestamp="1586272921128">
+    <state width="1320" height="250" key="GridCell.Tab.0.bottom" timestamp="1586274374241">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="250" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586274374241" />
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579268610486" />
-    <state width="1320" height="225" key="GridCell.Tab.0.center" timestamp="1586272921128">
+    <state width="1320" height="250" key="GridCell.Tab.0.center" timestamp="1586274374240">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="250" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586274374240" />
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="225" key="GridCell.Tab.0.left" timestamp="1586272921127">
+    <state width="1320" height="250" key="GridCell.Tab.0.left" timestamp="1586274374240">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586272921127" />
+    <state width="1320" height="250" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586274374240" />
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1579268610484" />
-    <state width="1320" height="225" key="GridCell.Tab.0.right" timestamp="1586272921128">
+    <state width="1320" height="250" key="GridCell.Tab.0.right" timestamp="1586274374240">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="250" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586274374240" />
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
     <state width="1320" height="336" key="GridCell.Tab.1.bottom" timestamp="1585504967307">
       <screen x="0" y="0" width="1366" height="768" />
@@ -677,10 +591,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="516" y="254" width="324" height="257" key="VCS.EditChangelistDialog/0.0.1366.768@0.0.1366.768" timestamp="1579628331724" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586272591190">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586273024046">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1586272591190" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1586273024046" />
     <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog" timestamp="1583085536066">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -718,10 +632,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor/0.0.1366.768@0.0.1366.768" timestamp="1583086208802" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1585500592936">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1586273413838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1585500592936" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586273413838" />
     <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1579174004638" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586272324616">
       <screen x="0" y="0" width="1366" height="768" />
