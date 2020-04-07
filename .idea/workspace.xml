@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="`After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb.`">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF1180AKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF550CKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/BestTimeToBuyAndSellStockKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ClimbingStairsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/CountSquareSubmatricesWithAllOnesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DecompressRunLengthEncodedListKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DefangingIPAddressKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/FindNumbersWithEvenNumberOfDigitsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/HouseRobberKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/IsSubsequenceKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/JewelsAndStonesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Maximum69NumberKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/MinimumTimeVisitingAllPointsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ReverseArraysKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution121.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1221.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1266.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1277.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1281.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1323.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution189.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution198.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution392.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution70.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution771.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SplitStringInBalancedStringsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SubtractTheProductAndSumOfDigitsOfAnIntegerKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/TwoSumKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/MyAwesomeClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/TestKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AnimalEvent$DefaultImpls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AnimalEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/AwesomeCodemy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/BaseAnimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Car3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Cats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ClassesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/CompanionObjectKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DataClassesKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$EAST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$NORTH.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$SOUTH.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions$WEST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Directions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DontCreateInsFromMe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/DontCreateInsFromMeAbs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/EnumClassKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit$Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit$Banana.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Fruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt$onClickListener$$inlined$schedule$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/FunctionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/InterfacessKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/NestedInnerClassKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ObjSingletonKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt$main$student$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt$main$textView$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Obj_ExpressionKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/OnTextChanged.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Photo$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Photo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/PropertyVsFieldKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$MedSchool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$TechSchool$ProgrammingSchool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School$TechSchool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SealedClassKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/ShapeKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SingletonObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/SivasKangali.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/TextView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/dersler/WalkEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubsetKt.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="189" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CompetitiveProgramming" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sokhibdzhon &lt;sokhibsaid@gmail.com&gt;" />
+        <option value="S" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="keko-branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Sokhib/CompetitiveProgramming.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WIKsDqbDgVUY6xJKSCiBo0W6Ly" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Codeforces" />
+      <recent name="$PROJECT_DIR$/src/dersler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt">
+    <configuration name="Codeforces" type="JetRunConfigurationType">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CF1230A" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Codeforces.HalilPKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Codeforces.HalilPKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.ClimbingStairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.ClimbingStairsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.CountSquareSubmatricesWithAllOnesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.CountSquareSubmatricesWithAllOnesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode.HouseRobberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.HouseRobberKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hackerrank.NonDivisibleSubsetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.NonDivisibleSubsetKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Codeforces" />
+      <item itemvalue="Kotlin.Codeforces.HalilPKt" />
+      <item itemvalue="Kotlin.Leetcode.ClimbingStairsKt" />
+      <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
+      <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
+      <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Leetcode.CountSquareSubmatricesWithAllOnesKt" />
+        <item itemvalue="Kotlin.hackerrank.NonDivisibleSubsetKt" />
+        <item itemvalue="Kotlin.Leetcode.HouseRobberKt" />
+        <item itemvalue="Kotlin.Leetcode.ClimbingStairsKt" />
+        <item itemvalue="Kotlin.Codeforces.HalilPKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="" />
+      <created>1578831873852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578831873852</updated>
+      <workItem from="1578831880035" duration="601000" />
+      <workItem from="1578839590961" duration="1047000" />
+      <workItem from="1579009786057" duration="18000" />
+      <workItem from="1579016023224" duration="969000" />
+      <workItem from="1579024566252" duration="582000" />
+      <workItem from="1579025179921" duration="2930000" />
+      <workItem from="1579171071737" duration="6697000" />
+      <workItem from="1579178694699" duration="23000" />
+      <workItem from="1579187173080" duration="523000" />
+      <workItem from="1579256597437" duration="194000" />
+      <workItem from="1579268535353" duration="76000" />
+      <workItem from="1579628151465" duration="8544000" />
+      <workItem from="1579697362004" duration="1368000" />
+      <workItem from="1579799143528" duration="8090000" />
+      <workItem from="1580024410330" duration="1171000" />
+      <workItem from="1580043035361" duration="7028000" />
+      <workItem from="1580149658021" duration="17436000" />
+      <workItem from="1580368793218" duration="9672000" />
+      <workItem from="1580386568912" duration="4497000" />
+      <workItem from="1580397942913" duration="8859000" />
+      <workItem from="1580409406165" duration="1630000" />
+      <workItem from="1580472774050" duration="25740000" />
+      <workItem from="1580674855617" duration="4409000" />
+      <workItem from="1580716625457" duration="14147000" />
+      <workItem from="1580835683952" duration="771000" />
+      <workItem from="1580836645900" duration="15957000" />
+      <workItem from="1581008231658" duration="13126000" />
+      <workItem from="1581170589415" duration="2034000" />
+      <workItem from="1581610507173" duration="144000" />
+      <workItem from="1581610689226" duration="1285000" />
+      <workItem from="1581796195511" duration="6000" />
+      <workItem from="1582121938818" duration="4178000" />
+      <workItem from="1583061557142" duration="4413000" />
+      <workItem from="1583077729386" duration="8902000" />
+      <workItem from="1583148600863" duration="100000" />
+      <workItem from="1583303961009" duration="1275000" />
+      <workItem from="1583420368857" duration="758000" />
+      <workItem from="1583442607647" duration="1245000" />
+      <workItem from="1583834727639" duration="2318000" />
+      <workItem from="1583924351574" duration="409000" />
+      <workItem from="1583924863569" duration="1569000" />
+      <workItem from="1583926466103" duration="821000" />
+      <workItem from="1584290936034" duration="726000" />
+      <workItem from="1584342815054" duration="3524000" />
+      <workItem from="1584540892567" duration="6101000" />
+      <workItem from="1584696025875" duration="2885000" />
+      <workItem from="1584909967890" duration="1944000" />
+      <workItem from="1584913016212" duration="4602000" />
+      <workItem from="1585498312553" duration="1244000" />
+      <workItem from="1585499585014" duration="5382000" />
+      <workItem from="1586091684736" duration="492000" />
+    </task>
+    <task id="LOCAL-00001" summary="1230A Solution">
+      <created>1579172311256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579172311256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1180A Solution">
+      <created>1579175158789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579175158789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CF550C Solution">
+      <created>1579178369046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579178369046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LeetCode TwoSum solution:&#10;Straightforward solution. Brute force all elements and if sum of TWO DIFFERENT indexes is equal to target return">
+      <created>1580902639303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580902639303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="package change">
+      <created>1580903005962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580903005962</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Two Sum solution:&#10;using HashMap(memory++, speed--)&#10;for every element of array we subtract(-) from target and check our HashMap KEY if it contains this result. &#10;If it does not contain result we will add array element as KEY and it's index as VALUE. &#10;If HashMap contains result we return HashMap VALUE (index of element) and INDEX of current element we subtracted from target.">
+      <created>1580904817129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580904817129</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Just replace . with [.] :)">
+      <created>1580906752420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580906752420</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Every time step by 2 and repeat a[i] times a[i+1] :)">
+      <created>1580908557408</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580908557408</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Straightforward answer, just for every element of array get length of element by 2 ways and check if it's even ++1">
+      <created>1581172589034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581172589034</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updating gitignore file">
+      <created>1581610629032</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581610629032</updated>
+    </task>
+    <task id="LOCAL-00011" summary="For each Jewel we will count number of Stones matching...">
+      <created>1581611264939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581611264939</updated>
+    </task>
+    <task id="LOCAL-00012" summary="gitignore configured.">
+      <created>1582122076956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582122076956</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Just calculate Product and Sum and subtract it :)">
+      <created>1582122230823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582122230823</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Just convert integer to String and replace first matched 6 to 9:)">
+      <created>1582124177256</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582124177256</updated>
+    </task>
+    <task id="LOCAL-00015" summary="So first for every pair of points(origin(point[i]), destination(point[i+1])), we have xPoint and yPoint. &#10;We calculate distance between destY - originY and destX - originX by subtracting and taking it's absolute value(as destination can be in less than origin). After having distance resultX and resultY, we add MAXIMUM of it(max(resultX, resultY)) to finalSum...&#10;(why MAXIMUM? because we'll already visit destination minimum while moving diagonally)">
+      <created>1582126750745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582126750745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Balance should be obtained for the whole string. So if it is R we just add. If it's L we subtract from balance.&#10;Also, we check balance every time if it's 0 it means +1 balanced string is obtained.">
+      <created>1583080165562</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583080165562</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Just doubled the array and took range from numbers Size-K until DoubledSize-K.">
+      <created>1583084165013</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583084165013</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Revert &quot;Just doubled the array and took range from numbers Size-K until DoubledSize-K.&quot;&#10;&#10;This reverts commit b2f9420a">
+      <created>1583084205045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583084205045</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Nothing changed. For fun.">
+      <created>1583085861567</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583085861567</updated>
+    </task>
+    <task id="LOCAL-00020" summary="(Note to myself) Learn freaking GIT noob.&#10;Re written code for new commit.">
+      <created>1583086559625</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583086559625</updated>
+    </task>
+    <task id="LOCAL-00021" summary="For every number we are checking if it's less than minimum we are taking it as minimum. If it is greater than maximum we are changing maximum and checking if difference of maximum and minimum is greater than the result we previously obtained.">
+      <created>1583305541403</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583305541403</updated>
+    </task>
+    <task id="LOCAL-00022" summary="For each element of t we check if we have characters of s starting from first character(element). If we reach end of s string it means s is subsequence of t.">
+      <created>1583443771298</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583443771298</updated>
+    </task>
+    <task id="LOCAL-00023" summary="After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb.">
+      <created>1583836391362</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583836391362</updated>
+    </task>
+    <task id="LOCAL-00024" summary="We take array as length of K, and count all numbers mod K. We do this because we have to decide to take i-th or counterpart of it(k-i) and also we have to take 1 from number that is divisible to K and if k is even we have to take 1 from (k/2)-th. So the solution will be sum of all of these.">
+      <created>1584545128566</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584545128566</updated>
+    </task>
+    <task id="LOCAL-00025" summary="So if we know the answer(maxSum) for i-th index we can find for (i+1)-th index. So for the 1st and 2nd answer is themselves. &#10;For the i-th index solution will be maxSum until (i-1)-th + number itself. The final answer will be max of resulting array.">
+      <created>1584545578986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584545578986</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="1180A Solution" />
+    <MESSAGE value="CF550C Solution" />
+    <MESSAGE value="LeetCode TwoSum solution:&#10;Straightforward solution. Brute force all elements and if sum of TWO DIFFERENT indexes is equal to target return" />
+    <MESSAGE value="package change" />
+    <MESSAGE value="Two Sum solution:&#10;using HashMap(memory++, speed--)&#10;for every element of array we subtract(-) from target and check our HashMap KEY if it contains this result. &#10;If it does not contain result we will add array element as KEY and it's index as VALUE. &#10;If HashMap contains result we return HashMap VALUE (index of element) and INDEX of current element we subtracted from target." />
+    <MESSAGE value="Just replace . with [.] :)" />
+    <MESSAGE value="Every time step by 2 and repeat a[i] times a[i+1] :)" />
+    <MESSAGE value="Straightforward answer, just for every element of array get length of element by 2 ways and check if it's even ++1" />
+    <MESSAGE value="Updating gitignore file" />
+    <MESSAGE value="For each Jewel we will count number of Stones matching..." />
+    <MESSAGE value="gitignore configured." />
+    <MESSAGE value="Just calculate Product and Sum and subtract it :)" />
+    <MESSAGE value="Just convert integer to String and replace first matched 6 to 9:)" />
+    <MESSAGE value="So first for every pair of points(origin(point[i]), destination(point[i+1])), we have xPoint and yPoint. &#10;We calculate distance between destY - originY and destX - originX by subtracting and taking it's absolute value(as destination can be in less than origin). After having distance resultX and resultY, we add MAXIMUM of it(max(resultX, resultY)) to finalSum...&#10;(why MAXIMUM? because we'll already visit destination minimum while moving diagonally)" />
+    <MESSAGE value="Balance should be obtained for the whole string. So if it is R we just add. If it's L we subtract from balance.&#10;Also, we check balance every time if it's 0 it means +1 balanced string is obtained." />
+    <MESSAGE value="Just doubled the array and took range from numbers Size-K until DoubledSize-K." />
+    <MESSAGE value="Revert &quot;Just doubled the array and took range from numbers Size-K until DoubledSize-K.&quot;&#10;&#10;This reverts commit b2f9420a" />
+    <MESSAGE value="Nothing changed. For fun." />
+    <MESSAGE value="(Note to myself) Learn freaking GIT noob.&#10;Re written code for new commit." />
+    <MESSAGE value="For every number we are checking if it's less than minimum we are taking it as minimum. If it is greater than maximum we are changing maximum and checking if difference of maximum and minimum is greater than the result we previously obtained." />
+    <MESSAGE value="For each element of t we check if we have characters of s starting from first character(element). If we reach end of s string it means s is subsequence of t." />
+    <MESSAGE value="After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb." />
+    <MESSAGE value="We take array as length of K, and count all numbers mod K. We do this because we have to decide to take i-th or counterpart of it(k-i) and also we have to take 1 from number that is divisible to K and if k is even we have to take 1 from (k/2)-th. So the solution will be sum of all of these." />
+    <MESSAGE value="So if we know the answer(maxSum) for i-th index we can find for (i+1)-th index. So for the 1st and 2nd answer is themselves. &#10;For the i-th index solution will be maxSum until (i-1)-th + number itself. The final answer will be max of resulting array." />
+    <MESSAGE value="Recap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recap" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="58" width="800" height="677" key="#Notifications" timestamp="1579024799707">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="58" width="800" height="677" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1579024799707" />
+    <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585499669338">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1585499669338" />
+    <state x="195" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1579268592123" />
+    <state x="455" y="102" width="445" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581011448223">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="455" y="102" width="445" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581011448223" />
+    <state x="488" y="0" width="504" height="768" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581172453163">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="0" width="504" height="768" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581172453163" />
+    <state x="755" y="13" key="#xdebugger.evaluate" timestamp="1583926814363">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1583926814363" />
+    <state x="35" y="36" width="1331" height="695" key="CommitChangelistDialog2" timestamp="1586272570345">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="35" y="36" width="1331" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586272570345" />
+    <state x="189" y="27" width="977" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579178368973" />
+    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1583086500475">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1583086500475" />
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579024667170">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1579024667170" />
+    <state x="481" y="274" width="394" height="210" key="Github.ShareDialog" timestamp="1580902760000">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="481" y="274" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1580902760000" />
+    <state x="481" y="291" width="394" height="210" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1579024781966" />
+    <state x="222" y="18" width="912" height="730" key="GradleDaemons" timestamp="1583148648631">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
+    <state width="1320" height="225" key="GridCell.Tab.0.bottom" timestamp="1586272921128">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579268610486" />
+    <state width="1320" height="225" key="GridCell.Tab.0.center" timestamp="1586272921128">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
+    <state width="1320" height="225" key="GridCell.Tab.0.left" timestamp="1586272921127">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586272921127" />
+    <state width="1320" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1579268610484" />
+    <state width="1320" height="225" key="GridCell.Tab.0.right" timestamp="1586272921128">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586272921128" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
+    <state width="1320" height="336" key="GridCell.Tab.1.bottom" timestamp="1585504967307">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="336" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585504967307" />
+    <state width="1320" height="273" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
+    <state width="1320" height="336" key="GridCell.Tab.1.center" timestamp="1585504967307">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="336" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1585504967307" />
+    <state width="1320" height="273" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
+    <state width="1320" height="336" key="GridCell.Tab.1.left" timestamp="1585504967306">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="336" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1585504967306" />
+    <state width="1320" height="273" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
+    <state width="1320" height="336" key="GridCell.Tab.1.right" timestamp="1585504967307">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="336" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1585504967307" />
+    <state width="1320" height="273" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
+    <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1586272614269" />
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1585498519083">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585498519083" />
+    <state x="172" y="4" key="SettingsEditor" timestamp="1586092176159">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="172" y="4" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586092176159" />
+    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1579187216660" />
+    <state x="516" y="254" width="324" height="257" key="VCS.EditChangelistDialog" timestamp="1579628331724">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="516" y="254" width="324" height="257" key="VCS.EditChangelistDialog/0.0.1366.768@0.0.1366.768" timestamp="1579628331724" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586272591190">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1586272591190" />
+    <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog" timestamp="1583085536066">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583085536066" />
+    <state width="1364" height="766" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1580386596330">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1364" height="766" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1366.768@0.0.1366.768" timestamp="1580386596330" />
+    <state x="100" y="70" width="1166" height="598" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583085405050">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="100" y="70" width="1166" height="598" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583085405050" />
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579024693351">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1579024693351" />
+    <state x="339" y="192" width="690" height="338" key="com.intellij.ide.util.TipDialog" timestamp="1586272778936">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586272778936" />
+    <state x="339" y="212" width="690" height="338" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1579256600070" />
+    <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584349676895">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1584349676895" />
+    <state x="322" y="172" width="711" height="421" key="git4idea.merge.GitPullDialog" timestamp="1584545929807">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="322" y="172" width="711" height="421" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1584545929807" />
+    <state x="424" y="232" key="git4idea.rebase.GitRebaseDialog" timestamp="1583086205158">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="424" y="232" key="git4idea.rebase.GitRebaseDialog/0.0.1366.768@0.0.1366.768" timestamp="1583086205158" />
+    <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor" timestamp="1583086208802">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor/0.0.1366.768@0.0.1366.768" timestamp="1583086208802" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1585500592936">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1585500592936" />
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1579174004638" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586272324616">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586272324616" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/HouseRobber.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/CountSquareSubmatricesWithAllOnes.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/CountSquareSubmatricesWithAllOnes.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$hackerrank_NonDivisibleSubsetKt.ic" NAME="hackerrank.NonDivisibleSubsetKt Coverage Results" MODIFIED="1583926428255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
