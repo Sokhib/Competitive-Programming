@@ -3,23 +3,15 @@ package Leetcode.AprilChallenge
 object GroupAnagrams {
 
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
-        val listOfAnagrams: MutableList<MutableList<String>> = ArrayList()
-        var doesInclude = false
-        var singleSorted: String
+        val listOfAnagrams = HashMap<String, MutableList<String>>()
+        var sortedStr = ""
         for (i in strs.indices) {
-            singleSorted = strs[i].toCharArray().sorted().joinToString("")
-            doesInclude = false
-            listOfAnagrams.forEach {
-                if (it[0].toCharArray().sorted().joinToString("") == singleSorted) {
-                    doesInclude = true
-                    it.add(strs[i])
-                }
-            }
-            if (!doesInclude) listOfAnagrams.add(mutableListOf(strs[i]))
+            sortedStr = strs[i].toCharArray().sorted().joinToString("")
+            if (listOfAnagrams[sortedStr] != null)
+                listOfAnagrams[sortedStr]!!.add(strs[i])
+            else listOfAnagrams[sortedStr] = mutableListOf(strs[i])
         }
-
-
-        return listOfAnagrams
+        return listOfAnagrams.values.toList()
     }
 }
 
