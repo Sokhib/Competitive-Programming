@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/BackspaceStringCompare.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/GroupAnagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/GroupAnagrams.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +89,16 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GroupAnagramsKt">
-    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCode" />
+  <component name="RunManager" selected="Kotlin.BackspaceStringCompareKt">
+    <configuration name="BackspaceStringCompareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Leetcode.AprilChallenge.BackspaceStringCompareKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,20 +169,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCode" />
-      <item itemvalue="Kotlin.Codeforces" />
+      <item itemvalue="Kotlin.BackspaceStringCompareKt" />
       <item itemvalue="Kotlin.BestTimeToBuyAndSellStockKt" />
+      <item itemvalue="Kotlin.Codeforces" />
+      <item itemvalue="Kotlin.GroupAnagramsKt" />
       <item itemvalue="Kotlin.HappyNumberKt" />
       <item itemvalue="Kotlin.MaximumSubarrayKt" />
-      <item itemvalue="Kotlin.GroupAnagramsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BackspaceStringCompareKt" />
         <item itemvalue="Kotlin.GroupAnagramsKt" />
         <item itemvalue="Kotlin.BestTimeToBuyAndSellStockKt" />
         <item itemvalue="Kotlin.MaximumSubarrayKt" />
         <item itemvalue="Kotlin.HappyNumberKt" />
-        <item itemvalue="Application.TestCode" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Updating gitignore file" />
     <MESSAGE value="For each Jewel we will count number of Stones matching..." />
     <MESSAGE value="gitignore configured." />
     <MESSAGE value="Just calculate Product and Sum and subtract it :)" />
@@ -479,7 +483,8 @@
     <MESSAGE value="Solution for April Challenge BestTimeToBuyAndSellStock.kt.kt" />
     <MESSAGE value="Different approachS for April Challenge BestTimeToBuyAndSellStock.kt.kt" />
     <MESSAGE value="Solution of O(n^2) for GroupAnagrams.kt which didn't PASS all tests giving TIME_LIMIT_EXCEEDED." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of O(n^2) for GroupAnagrams.kt which didn't PASS all tests giving TIME_LIMIT_EXCEEDED." />
+    <MESSAGE value="Solution for April Challenge GroupAnagrams.kt. &#10;Note: Approach is to make map of sorted Strings and return values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge GroupAnagrams.kt. &#10;Note: Approach is to make map of sorted Strings and return values." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -506,10 +511,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1583926814363" />
-    <state x="128" y="73" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1586699519694">
+    <state x="128" y="73" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1586708017968">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="128" y="73" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586699519694" />
+    <state x="128" y="73" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586708017968" />
     <state x="189" y="27" width="977" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579178368973" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1583086500475">
       <screen x="0" y="0" width="1366" height="768" />
@@ -528,45 +533,45 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="250" key="GridCell.Tab.0.bottom" timestamp="1586707717861">
+    <state width="1320" height="289" key="GridCell.Tab.0.bottom" timestamp="1586869261912">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586707717861" />
+    <state width="1320" height="289" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586869261912" />
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579268610486" />
-    <state width="1320" height="250" key="GridCell.Tab.0.center" timestamp="1586707717861">
+    <state width="1320" height="289" key="GridCell.Tab.0.center" timestamp="1586869261911">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586707717861" />
+    <state width="1320" height="289" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586869261911" />
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="250" key="GridCell.Tab.0.left" timestamp="1586707717860">
+    <state width="1320" height="289" key="GridCell.Tab.0.left" timestamp="1586869261911">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586707717860" />
+    <state width="1320" height="289" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586869261911" />
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1579268610484" />
-    <state width="1320" height="250" key="GridCell.Tab.0.right" timestamp="1586707717861">
+    <state width="1320" height="289" key="GridCell.Tab.0.right" timestamp="1586869261912">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="250" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586707717861" />
+    <state width="1320" height="289" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586869261912" />
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="330" key="GridCell.Tab.1.bottom" timestamp="1586552405787">
+    <state width="1320" height="289" key="GridCell.Tab.1.bottom" timestamp="1586869261913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="330" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586552405787" />
+    <state width="1320" height="289" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586869261913" />
     <state width="1320" height="273" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
-    <state width="1320" height="330" key="GridCell.Tab.1.center" timestamp="1586552405786">
+    <state width="1320" height="289" key="GridCell.Tab.1.center" timestamp="1586869261913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="330" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586552405786" />
+    <state width="1320" height="289" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586869261913" />
     <state width="1320" height="273" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
-    <state width="1320" height="330" key="GridCell.Tab.1.left" timestamp="1586552405786">
+    <state width="1320" height="289" key="GridCell.Tab.1.left" timestamp="1586869261912">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="330" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586552405786" />
+    <state width="1320" height="289" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586869261912" />
     <state width="1320" height="273" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
-    <state width="1320" height="330" key="GridCell.Tab.1.right" timestamp="1586552405786">
+    <state width="1320" height="289" key="GridCell.Tab.1.right" timestamp="1586869261913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="330" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586552405786" />
+    <state width="1320" height="289" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586869261913" />
     <state width="1320" height="273" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
@@ -605,10 +610,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1579024693351" />
-    <state x="339" y="192" width="690" height="338" key="com.intellij.ide.util.TipDialog" timestamp="1586707343437">
+    <state x="339" y="192" width="690" height="338" key="com.intellij.ide.util.TipDialog" timestamp="1587030527370">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586707343437" />
+    <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587030527370" />
     <state x="339" y="212" width="690" height="338" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1579256600070" />
     <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584349676895">
       <screen x="0" y="0" width="1366" height="768" />
@@ -626,15 +631,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor/0.0.1366.768@0.0.1366.768" timestamp="1583086208802" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1586273413838">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1586867046292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586273413838" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586867046292" />
     <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1579174004638" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586272324616">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586867129953">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586272324616" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586867129953" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
