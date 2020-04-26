@@ -2,66 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/LastStoneWeight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dersler/HigherOrderTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/Contiguous.Array.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF1180AKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF1230AKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Codeforces/CF550CKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/BestTimeToBuyAndSellStockKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ClimbingStairsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/CountSquareSubmatricesWithAllOnesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DecompressRunLengthEncodedListKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/DefangingIPAddressKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/FindNumbersWithEvenNumberOfDigitsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/HouseRobberKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/IsSubsequenceKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/JewelsAndStonesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Maximum69NumberKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/MinimumTimeVisitingAllPointsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/ReverseArraysKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution121.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1221.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1266.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1277.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1281.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution1323.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution189.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution198.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution392.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution70.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/Solution771.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SplitStringInBalancedStringsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/SubtractTheProductAndSumOfDigitsOfAnIntegerKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/Leetcode/TwoSumKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/CF1180A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/CF1180A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/CF1230A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/CF1230A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces/CF550C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/CF550C.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/BackspaceStringCompare.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/BackspaceStringCompare.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/BestTimeToBuyAndSellStock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/GroupAnagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/GroupAnagrams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/HappyNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/MaximumSubarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/MaximumSubarray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/AprilChallenge/SingleNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/SingleNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BestTimeToBuyAndSellStock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/ClimbingStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ClimbingStairs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/CountSquareSubmatricesWithAllOnes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/CountSquareSubmatricesWithAllOnes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DecompressRunLengthEncodedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DecompressRunLengthEncodedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DefangingIPAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DefangingIPAddress.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/FindNumbersWithEvenNumberOfDigits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FindNumbersWithEvenNumberOfDigits.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HouseRobber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/HouseRobber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/IsSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/IsSubsequence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/JewelsAndStones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/JewelsAndStones.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Maximum69Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Maximum69Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/MinimumTimeVisitingAllPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MinimumTimeVisitingAllPoints.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/ReverseArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ReverseArrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/SplitStringInBalancedStrings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/SplitStringInBalancedStrings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/TwoSum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerrank/NonDivisibleSubset.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +15,6 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="189" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="CompetitiveProgramming" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,18 +47,10 @@
       </set>
     </option>
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1WIKsDqbDgVUY6xJKSCiBo0W6Ly" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +59,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -147,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LastStoneWeightKt">
+  <component name="RunManager" selected="Kotlin.ContiguousArrayKt">
     <configuration name="BackspaceStringCompareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -156,19 +79,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.BackspaceStringCompareKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestTimeToBuyAndSellStockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.BestTimeToBuyAndSellStockKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContiguousArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.ContiguousArrayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupAnagramsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -195,6 +118,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.GroupAnagramsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HigherOrderTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dersler.HigherOrderTestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,48 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.MaximumSubarrayKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.BestTimeToBuyAndSellStockKt" />
-      <item itemvalue="Kotlin.MaximumSubarrayKt" />
-      <item itemvalue="Kotlin.GroupAnagramsKt" />
       <item itemvalue="Kotlin.BackspaceStringCompareKt" />
+      <item itemvalue="Kotlin.GroupAnagramsKt" />
       <item itemvalue="Kotlin.LastStoneWeightKt" />
+      <item itemvalue="Kotlin.HigherOrderTestKt" />
+      <item itemvalue="Kotlin.ContiguousArrayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ContiguousArrayKt" />
+        <item itemvalue="Kotlin.HigherOrderTestKt" />
         <item itemvalue="Kotlin.LastStoneWeightKt" />
         <item itemvalue="Kotlin.BackspaceStringCompareKt" />
         <item itemvalue="Kotlin.GroupAnagramsKt" />
-        <item itemvalue="Kotlin.BestTimeToBuyAndSellStockKt" />
-        <item itemvalue="Kotlin.MaximumSubarrayKt" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -507,17 +418,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="gitignore configured." />
     <MESSAGE value="Just calculate Product and Sum and subtract it :)" />
     <MESSAGE value="Just convert integer to String and replace first matched 6 to 9:)" />
     <MESSAGE value="So first for every pair of points(origin(point[i]), destination(point[i+1])), we have xPoint and yPoint. &#10;We calculate distance between destY - originY and destX - originX by subtracting and taking it's absolute value(as destination can be in less than origin). After having distance resultX and resultY, we add MAXIMUM of it(max(resultX, resultY)) to finalSum...&#10;(why MAXIMUM? because we'll already visit destination minimum while moving diagonally)" />
@@ -542,16 +451,13 @@
     <MESSAGE value="Solution of O(n^2) for GroupAnagrams.kt which didn't PASS all tests giving TIME_LIMIT_EXCEEDED." />
     <MESSAGE value="Solution for April Challenge GroupAnagrams.kt. &#10;Note: Approach is to make map of sorted Strings and return values." />
     <MESSAGE value="Solution for April Challenge BackspaceStringCompare.kt &#10;Note: Even though it is not fast approach was to use RegEx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge BackspaceStringCompare.kt &#10;Note: Even though it is not fast approach was to use RegEx" />
+    <MESSAGE value="Solution for April Challenge LastStoneWeight.kt &#10;Note: Straightforward solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge LastStoneWeight.kt &#10;Note: Straightforward solution" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="58" width="800" height="677" key="#Notifications" timestamp="1579024799707">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="278" y="58" width="800" height="677" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1579024799707" />
     <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585499669338">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -569,89 +475,78 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="111" y="73" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1587040986774">
+    <state x="111" y="73" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1587041012664">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="111" y="73" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587040986774" />
-    <state x="189" y="27" width="977" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579178368973" />
+    <state x="111" y="73" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587041012664" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1583086500475">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1583086500475" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579024667170">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1579024667170" />
     <state x="481" y="274" width="394" height="210" key="Github.ShareDialog" timestamp="1580902760000">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="481" y="274" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1580902760000" />
-    <state x="481" y="291" width="394" height="210" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1579024781966" />
     <state x="222" y="18" width="912" height="730" key="GradleDaemons" timestamp="1583148648631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="321" key="GridCell.Tab.0.bottom" timestamp="1587040616380">
+    <state width="1320" height="307" key="GridCell.Tab.0.bottom" timestamp="1587913400617">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="321" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587040616380" />
+    <state width="1320" height="307" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587913400617" />
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579268610486" />
-    <state width="1320" height="321" key="GridCell.Tab.0.center" timestamp="1587040616378">
+    <state width="1320" height="307" key="GridCell.Tab.0.center" timestamp="1587913400615">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="321" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587040616378" />
+    <state width="1320" height="307" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587913400615" />
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="321" key="GridCell.Tab.0.left" timestamp="1587040616377">
+    <state width="1320" height="307" key="GridCell.Tab.0.left" timestamp="1587913400614">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="321" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587040616377" />
+    <state width="1320" height="307" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587913400614" />
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1579268610484" />
-    <state width="1320" height="321" key="GridCell.Tab.0.right" timestamp="1587040616379">
+    <state width="1320" height="307" key="GridCell.Tab.0.right" timestamp="1587913400616">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="321" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587040616379" />
+    <state width="1320" height="307" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587913400616" />
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1579268610485" />
-    <state width="1320" height="289" key="GridCell.Tab.1.bottom" timestamp="1587040609213">
+    <state width="1320" height="303" key="GridCell.Tab.1.bottom" timestamp="1587910599659">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587040609213" />
-    <state width="1320" height="273" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
-    <state width="1320" height="289" key="GridCell.Tab.1.center" timestamp="1587040609212">
+    <state width="1320" height="303" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587910599659" />
+    <state width="1320" height="303" key="GridCell.Tab.1.center" timestamp="1587910599658">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1587040609212" />
-    <state width="1320" height="273" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
-    <state width="1320" height="289" key="GridCell.Tab.1.left" timestamp="1587040609212">
+    <state width="1320" height="303" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1587910599658" />
+    <state width="1320" height="303" key="GridCell.Tab.1.left" timestamp="1587910599658">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1587040609212" />
-    <state width="1320" height="273" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1579178528679" />
-    <state width="1320" height="289" key="GridCell.Tab.1.right" timestamp="1587040609213">
+    <state width="1320" height="303" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1587910599658" />
+    <state width="1320" height="303" key="GridCell.Tab.1.right" timestamp="1587910599659">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1587040609213" />
-    <state width="1320" height="273" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1579178528680" />
+    <state width="1320" height="303" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1587910599659" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1586272614269" />
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1586280060978">
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1587905193490">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1586280060978" />
-    <state x="172" y="4" key="SettingsEditor" timestamp="1586696535484">
+    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1587905193490" />
+    <state x="180" y="38" width="1139" height="730" key="SettingsEditor" timestamp="1587901169277">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="172" y="4" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586696535484" />
-    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1579187216660" />
+    <state x="180" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587901169277" />
     <state x="516" y="254" width="324" height="257" key="VCS.EditChangelistDialog" timestamp="1579628331724">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="516" y="254" width="324" height="257" key="VCS.EditChangelistDialog/0.0.1366.768@0.0.1366.768" timestamp="1579628331724" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586273024046">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587041016191">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1586273024046" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1587041016191" />
     <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog" timestamp="1583085536066">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -664,15 +559,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="100" y="70" width="1166" height="598" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583085405050" />
-    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579024693351">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587905496772">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1579024693351" />
+    <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1587905496772" />
     <state x="339" y="192" width="690" height="338" key="com.intellij.ide.util.TipDialog" timestamp="1587037979101">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587037979101" />
-    <state x="339" y="212" width="690" height="338" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1579256600070" />
     <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584349676895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -689,11 +583,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor/0.0.1366.768@0.0.1366.768" timestamp="1583086208802" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1587040214554">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1587472416118">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1587040214554" />
-    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1579174004638" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1587472416117" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586867129953">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -716,16 +609,6 @@
           <url>file://$PROJECT_DIR$/src/leetcode/CountSquareSubmatricesWithAllOnes.kt</url>
           <line>13</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/LastStoneWeight.kt</url>
-          <line>6</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/LastStoneWeight.kt</url>
-          <line>10</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
