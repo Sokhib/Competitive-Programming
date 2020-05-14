@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/NumberOfIsland.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/MinimumPathSum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NumberOfIslandKt">
+  <component name="RunManager" selected="Kotlin.MinimumPathSumKt">
     <configuration name="TestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.TestJava" />
       <module name="CompetitiveProgramming" />
@@ -99,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BedilsProblemOfConferenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dersler.BedilsProblemOfConferenceKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -121,6 +107,19 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="CF1230A" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPathSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.MinimumPathSumKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,18 +166,18 @@
     <list>
       <item itemvalue="Application.TestJava" />
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.BedilsProblemOfConferenceKt" />
       <item itemvalue="Kotlin.ProductOfArrayExceptSelfKt" />
       <item itemvalue="Kotlin.ValidParenthesisStringKt" />
       <item itemvalue="Kotlin.NumberOfIslandKt" />
+      <item itemvalue="Kotlin.MinimumPathSumKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MinimumPathSumKt" />
         <item itemvalue="Kotlin.NumberOfIslandKt" />
         <item itemvalue="Kotlin.ValidParenthesisStringKt" />
         <item itemvalue="Kotlin.ProductOfArrayExceptSelfKt" />
         <item itemvalue="Application.TestJava" />
-        <item itemvalue="Kotlin.BedilsProblemOfConferenceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Balance should be obtained for the whole string. So if it is R we just add. If it's L we subtract from balance.&#10;Also, we check balance every time if it's 0 it means +1 balanced string is obtained." />
     <MESSAGE value="Just doubled the array and took range from numbers Size-K until DoubledSize-K." />
     <MESSAGE value="Revert &quot;Just doubled the array and took range from numbers Size-K until DoubledSize-K.&quot;&#10;&#10;This reverts commit b2f9420a" />
     <MESSAGE value="Nothing changed. For fun." />
@@ -467,7 +465,8 @@
     <MESSAGE value="Solution for April Challenge ContiguousArray.kt &#10;Note: Approach is to find prefix sum and map them to their indexes and find max." />
     <MESSAGE value="Solution for April Challenge ProductOfArrayExceptSelf.kt.kt &#10;Note: Approach is by calculating suffix product and prefix product" />
     <MESSAGE value="Solution for April Challenge ValidParenthesisString.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge ValidParenthesisString.kt" />
+    <MESSAGE value="Solution for April Challenge NumberOfIsland.kt&#10;Note: Approach is by BFS." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge NumberOfIsland.kt&#10;Note: Approach is by BFS." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -493,14 +492,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="141" y="73" width="1126" height="695" key="CommitChangelistDialog2" timestamp="1589398425476">
+    <state x="141" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1589403200838">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="141" y="73" width="1126" height="695" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589398425476" />
-    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1583086500475">
+    <state x="141" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589403200838" />
+    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1583086500475" />
+    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1589403074733" />
     <state x="481" y="274" width="394" height="210" key="Github.ShareDialog" timestamp="1580902760000">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -509,22 +508,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1589401659618">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1589497488494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589401659618" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1589401659616">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589497488494" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1589497488493">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589401659616" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1589401659615">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589497488493" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1589497488492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589401659615" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1589401659617">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589497488492" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1589497488494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589401659617" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589497488494" />
     <state width="1320" height="440" key="GridCell.Tab.1.bottom" timestamp="1589067838128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -553,10 +552,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="167" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587952862118" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587914866264">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589403209377">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1587914866264" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589403209377" />
     <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog" timestamp="1583085536066">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -593,10 +592,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1589401277082" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588805838256">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589496856002">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588805838255" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589496856002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
