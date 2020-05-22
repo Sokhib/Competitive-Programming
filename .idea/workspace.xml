@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/SubarraySumEqualsK.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/AplusBTrialProblem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/Square.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/SumOfRoundNumbers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
@@ -85,7 +87,20 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SubarraySumEqualsKKt">
+  <component name="RunManager" selected="Kotlin.SumOfRoundNumbersKt">
+    <configuration name="AplusBTrialProblemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.AplusBTrialProblemKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -99,32 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.MinimumPathSumKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfIslandKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.NumberOfIslandKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchInRotatedSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -133,6 +122,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.SearchInRotatedSortedArrayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.SquareKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,14 +153,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesisStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="SumOfRoundNumbersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.ValidParenthesisStringKt" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.SumOfRoundNumbersKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,19 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.ValidParenthesisStringKt" />
-      <item itemvalue="Kotlin.NumberOfIslandKt" />
-      <item itemvalue="Kotlin.MinimumPathSumKt" />
       <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
       <item itemvalue="Kotlin.SubarraySumEqualsKKt" />
+      <item itemvalue="Kotlin.AplusBTrialProblemKt" />
+      <item itemvalue="Kotlin.SquareKt" />
+      <item itemvalue="Kotlin.SumOfRoundNumbersKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SumOfRoundNumbersKt" />
+        <item itemvalue="Kotlin.SquareKt" />
+        <item itemvalue="Kotlin.AplusBTrialProblemKt" />
         <item itemvalue="Kotlin.SubarraySumEqualsKKt" />
         <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
-        <item itemvalue="Kotlin.MinimumPathSumKt" />
-        <item itemvalue="Kotlin.NumberOfIslandKt" />
-        <item itemvalue="Kotlin.ValidParenthesisStringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Nothing changed. For fun." />
     <MESSAGE value="(Note to myself) Learn freaking GIT noob.&#10;Re written code for new commit." />
     <MESSAGE value="For every number we are checking if it's less than minimum we are taking it as minimum. If it is greater than maximum we are changing maximum and checking if difference of maximum and minimum is greater than the result we previously obtained." />
     <MESSAGE value="For each element of t we check if we have characters of s starting from first character(element). If we reach end of s string it means s is subsequence of t." />
@@ -467,7 +468,8 @@
     <MESSAGE value="Solution for April Challenge NumberOfIsland.kt&#10;Note: Approach is by BFS." />
     <MESSAGE value="Solution for April Challenge MinimumPathSum.kt&#10;Note: Approach is by DP, minimum sum until any cell + cell itself." />
     <MESSAGE value="Solution for April Challenge SearchInRotatedSortedArray.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge SearchInRotatedSortedArray.kt" />
+    <MESSAGE value="Solution for April Challenge SubarraySumEqualsK.kt&#10;Note: Solution is straightforward, for every index iterate and try to form K" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for April Challenge SubarraySumEqualsK.kt&#10;Note: Solution is straightforward, for every index iterate and try to form K" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -481,18 +483,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1585499669338" />
-    <state x="488" y="0" width="504" height="768" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581172453163">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="488" y="0" width="504" height="768" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581172453163" />
     <state x="755" y="13" key="#xdebugger.evaluate" timestamp="1587038975843">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="158" y="0" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1589719424385">
+    <state x="148" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1589720913831">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="158" y="0" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589719424385" />
+    <state x="148" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589720913831" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -501,38 +499,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1589720457057">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590161278920">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589720457057" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1589720457056">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590161278920" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590161278919">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589720457056" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1589720457056">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590161278919" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590161278918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589720457056" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1589720457057">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590161278918" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590161278920">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589720457057" />
-    <state width="1320" height="440" key="GridCell.Tab.1.bottom" timestamp="1589067838128">
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590161278920" />
+    <state width="1320" height="440" key="GridCell.Tab.1.bottom" timestamp="1590161253921">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="440" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589067838128" />
-    <state width="1320" height="440" key="GridCell.Tab.1.center" timestamp="1589067838127">
+    <state width="1320" height="440" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590161253921" />
+    <state width="1320" height="440" key="GridCell.Tab.1.center" timestamp="1590161253920">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="440" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1589067838127" />
-    <state width="1320" height="440" key="GridCell.Tab.1.left" timestamp="1589067838127">
+    <state width="1320" height="440" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590161253920" />
+    <state width="1320" height="440" key="GridCell.Tab.1.left" timestamp="1590161253920">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="440" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1589067838127" />
-    <state width="1320" height="440" key="GridCell.Tab.1.right" timestamp="1589067838128">
+    <state width="1320" height="440" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590161253920" />
+    <state width="1320" height="440" key="GridCell.Tab.1.right" timestamp="1590161253920">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="440" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1589067838128" />
+    <state width="1320" height="440" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590161253920" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -545,10 +543,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="167" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587952862118" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589497883621">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589720934510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589497883621" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589720934510" />
     <state x="390" y="24" width="576" height="690" key="VcsDiffUtil.ChangesDialog" timestamp="1583085536066">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -607,6 +605,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/CountSquareSubmatricesWithAllOnes.kt</url>
           <line>13</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/kotlinheroes4/SumOfRoundNumbers.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/kotlinheroes4/SumOfRoundNumbers.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
