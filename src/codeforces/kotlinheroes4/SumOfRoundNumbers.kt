@@ -1,4 +1,4 @@
-//package codeforces.kotlinheroes4
+package codeforces.kotlinheroes4
 
 import java.util.*
 
