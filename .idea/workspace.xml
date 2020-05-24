@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/AliceBobAndCandies.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/HonestCoach.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/MinimalSquare.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/Square.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/SumOfRoundNumbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/SumOfRoundNumbers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SquareKt">
+  <component name="RunManager" selected="Kotlin.SimilarPairsKt">
     <configuration name="AliceBobAndCandiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -96,19 +96,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.AliceBobAndCandiesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AplusBTrialProblemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.AplusBTrialProblemKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,6 +114,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HonestCoachKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.round644div3.HonestCoachKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimalSquareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.round644div3.MinimalSquareKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimilarPairsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.round644div3.SimilarPairsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SquareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -140,47 +166,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfRoundNumbersKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SumOfRoundNumbersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfRoundNumbersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.SumOfRoundNumbersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.AplusBTrialProblemKt" />
       <item itemvalue="Kotlin.SquareKt" />
-      <item itemvalue="Kotlin.SumOfRoundNumbersKt" />
-      <item itemvalue="Kotlin.SumOfRoundNumbersKt (1)" />
       <item itemvalue="Kotlin.AliceBobAndCandiesKt" />
+      <item itemvalue="Kotlin.MinimalSquareKt" />
+      <item itemvalue="Kotlin.HonestCoachKt" />
+      <item itemvalue="Kotlin.SimilarPairsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SimilarPairsKt" />
+        <item itemvalue="Kotlin.HonestCoachKt" />
+        <item itemvalue="Kotlin.MinimalSquareKt" />
         <item itemvalue="Kotlin.SquareKt" />
         <item itemvalue="Kotlin.AliceBobAndCandiesKt" />
-        <item itemvalue="Kotlin.SumOfRoundNumbersKt" />
-        <item itemvalue="Kotlin.SumOfRoundNumbersKt (1)" />
-        <item itemvalue="Kotlin.AplusBTrialProblemKt" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="For every number we are checking if it's less than minimum we are taking it as minimum. If it is greater than maximum we are changing maximum and checking if difference of maximum and minimum is greater than the result we previously obtained." />
     <MESSAGE value="For each element of t we check if we have characters of s starting from first character(element). If we reach end of s string it means s is subsequence of t." />
     <MESSAGE value="After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb." />
     <MESSAGE value="We take array as length of K, and count all numbers mod K. We do this because we have to decide to take i-th or counterpart of it(k-i) and also we have to take 1 from number that is divisible to K and if k is even we have to take 1 from (k/2)-th. So the solution will be sum of all of these." />
@@ -469,7 +468,8 @@
     <MESSAGE value="Solution for April Challenge SearchInRotatedSortedArray.kt" />
     <MESSAGE value="Solution for April Challenge SubarraySumEqualsK.kt&#10;Note: Solution is straightforward, for every index iterate and try to form K" />
     <MESSAGE value="Slightly different, more readable solution for SumOfRoundNumbers.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slightly different, more readable solution for SumOfRoundNumbers.kt" />
+    <MESSAGE value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -491,10 +491,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590163406096">
+    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590244997285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590163406096" />
+    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590244997285" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -503,38 +503,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590243981238">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590351666246">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590243981238" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590243981237">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590351666246">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590243981237" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590243981236">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590351666245">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590243981236" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590243981237">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590351666245" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590351666246">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590243981237" />
-    <state width="1320" height="359" key="GridCell.Tab.1.bottom" timestamp="1590243944907">
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
+    <state width="1320" height="359" key="GridCell.Tab.1.bottom" timestamp="1590351660040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590243944907" />
-    <state width="1320" height="359" key="GridCell.Tab.1.center" timestamp="1590243944906">
+    <state width="1320" height="359" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
+    <state width="1320" height="359" key="GridCell.Tab.1.center" timestamp="1590351660040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590243944906" />
-    <state width="1320" height="359" key="GridCell.Tab.1.left" timestamp="1590243944906">
+    <state width="1320" height="359" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
+    <state width="1320" height="359" key="GridCell.Tab.1.left" timestamp="1590351660040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590243944906" />
-    <state width="1320" height="359" key="GridCell.Tab.1.right" timestamp="1590243944907">
+    <state width="1320" height="359" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
+    <state width="1320" height="359" key="GridCell.Tab.1.right" timestamp="1590351660040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590243944907" />
+    <state width="1320" height="359" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -583,10 +583,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="427" y="114" width="501" height="510" key="git4idea.rebase.GitRebaseEditor/0.0.1366.768@0.0.1366.768" timestamp="1583086208802" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1590239955460">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1590346168516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1590239955460" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1590346168516" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589496856002">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -629,6 +629,41 @@
           <url>file://$PROJECT_DIR$/src/codeforces/kotlinheroes4/AliceBobAndCandies.kt</url>
           <line>22</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/MinimalSquare.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/MinimalSquare.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
