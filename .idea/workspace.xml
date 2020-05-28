@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/HonestCoach.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/MinimalSquare.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="For each element of t we check if we have characters of s starting from first character(element). If we reach end of s string it means s is subsequence of t." />
     <MESSAGE value="After couple of iterations on paper I realized it is fibonacci sequence. Upcoming step has sum of 2 previous step number of ways to climb." />
     <MESSAGE value="We take array as length of K, and count all numbers mod K. We do this because we have to decide to take i-th or counterpart of it(k-i) and also we have to take 1 from number that is divisible to K and if k is even we have to take 1 from (k/2)-th. So the solution will be sum of all of these." />
     <MESSAGE value="So if we know the answer(maxSum) for i-th index we can find for (i+1)-th index. So for the 1st and 2nd answer is themselves. &#10;For the i-th index solution will be maxSum until (i-1)-th + number itself. The final answer will be max of resulting array." />
@@ -469,7 +465,8 @@
     <MESSAGE value="Solution for April Challenge SubarraySumEqualsK.kt&#10;Note: Solution is straightforward, for every index iterate and try to form K" />
     <MESSAGE value="Slightly different, more readable solution for SumOfRoundNumbers.kt" />
     <MESSAGE value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
+    <MESSAGE value="Solution for first 2 problems of round644div3 contest codeforces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for first 2 problems of round644div3 contest codeforces." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -491,10 +488,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590244997285">
+    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590359873931">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590244997285" />
+    <state x="104" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590359873931" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -503,38 +500,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590351666246">
+    <state width="1320" height="253" key="GridCell.Tab.0.bottom" timestamp="1590633725770">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590351666246">
+    <state width="1320" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590633725770" />
+    <state width="1320" height="253" key="GridCell.Tab.0.center" timestamp="1590633725769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590351666245">
+    <state width="1320" height="253" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590633725769" />
+    <state width="1320" height="253" key="GridCell.Tab.0.left" timestamp="1590633725769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590351666245" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590351666246">
+    <state width="1320" height="253" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590633725769" />
+    <state width="1320" height="253" key="GridCell.Tab.0.right" timestamp="1590633725770">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590351666246" />
-    <state width="1320" height="359" key="GridCell.Tab.1.bottom" timestamp="1590351660040">
+    <state width="1320" height="253" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590633725770" />
+    <state width="1320" height="253" key="GridCell.Tab.1.bottom" timestamp="1590633725772">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
-    <state width="1320" height="359" key="GridCell.Tab.1.center" timestamp="1590351660040">
+    <state width="1320" height="253" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590633725772" />
+    <state width="1320" height="253" key="GridCell.Tab.1.center" timestamp="1590633725771">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
-    <state width="1320" height="359" key="GridCell.Tab.1.left" timestamp="1590351660040">
+    <state width="1320" height="253" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590633725771" />
+    <state width="1320" height="253" key="GridCell.Tab.1.left" timestamp="1590633725771">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
-    <state width="1320" height="359" key="GridCell.Tab.1.right" timestamp="1590351660040">
+    <state width="1320" height="253" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590633725771" />
+    <state width="1320" height="253" key="GridCell.Tab.1.right" timestamp="1590633725771">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="359" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590351660040" />
+    <state width="1320" height="253" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590633725771" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -642,28 +639,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
-          <line>8</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
-          <line>21</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/codeforces/round644div3/SimilarPairs.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="25" />
+          <line>17</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
