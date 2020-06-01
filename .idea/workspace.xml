@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/Input.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codingame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/BootCamp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/ColorRevolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeforces/kotlinheroes4/ColorRevolution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +86,20 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ColorRevolutionKt">
+  <component name="RunManager" selected="Kotlin.BootCampKt">
+    <configuration name="BootCampKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.BootCampKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuyingShovelsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -112,6 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CodingameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CodingameKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColorRevolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -120,32 +147,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.ColorRevolutionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HonestCoachKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.round644div3.HonestCoachKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimalSquareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.round644div3.MinimalSquareKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,19 +167,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.MinimalSquareKt" />
-      <item itemvalue="Kotlin.HonestCoachKt" />
       <item itemvalue="Kotlin.SimilarPairsKt" />
       <item itemvalue="Kotlin.BuyingShovelsKt" />
       <item itemvalue="Kotlin.ColorRevolutionKt" />
+      <item itemvalue="Kotlin.CodingameKt" />
+      <item itemvalue="Kotlin.BootCampKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BootCampKt" />
+        <item itemvalue="Kotlin.CodingameKt" />
         <item itemvalue="Kotlin.ColorRevolutionKt" />
         <item itemvalue="Kotlin.BuyingShovelsKt" />
         <item itemvalue="Kotlin.SimilarPairsKt" />
-        <item itemvalue="Kotlin.HonestCoachKt" />
-        <item itemvalue="Kotlin.MinimalSquareKt" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Recap" />
     <MESSAGE value="April Challenge SingleNumber.kt solved." />
     <MESSAGE value="Solution with XOR" />
     <MESSAGE value="HappyNumber.kt April Challenge solved with straightforward implementation." />
@@ -467,7 +467,8 @@
     <MESSAGE value="Solution for SimilarPairs.kt problem of round644div3 contest codeforces." />
     <MESSAGE value="Solution for BuyingShovels.kt problem of round644div3 contest codeforces." />
     <MESSAGE value="Solution for ColorRevolution.kt problem of Kotlin Heroes contest Codeforces." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for ColorRevolution.kt problem of Kotlin Heroes contest Codeforces." />
+    <MESSAGE value="Input object for reading from CommandLine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input object for reading from CommandLine" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -489,10 +490,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590931717884">
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1590932738845">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590931717884" />
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1590932738845" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -505,38 +506,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590931587995">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1590967740946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590931587995" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590931587995">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590967740946" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1590967740945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590931587995" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590931587994">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590967740945" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1590967740945">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590931587994" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590931587995">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590967740945" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1590967740946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590931587995" />
-    <state width="1320" height="253" key="GridCell.Tab.1.bottom" timestamp="1590893523823">
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590967740946" />
+    <state width="1320" height="253" key="GridCell.Tab.1.bottom" timestamp="1590966548167">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590893523823" />
-    <state width="1320" height="253" key="GridCell.Tab.1.center" timestamp="1590893523823">
+    <state width="1320" height="253" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590966548167" />
+    <state width="1320" height="253" key="GridCell.Tab.1.center" timestamp="1590966548166">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590893523823" />
-    <state width="1320" height="253" key="GridCell.Tab.1.left" timestamp="1590893523823">
+    <state width="1320" height="253" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590966548166" />
+    <state width="1320" height="253" key="GridCell.Tab.1.left" timestamp="1590966548166">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590893523823" />
-    <state width="1320" height="253" key="GridCell.Tab.1.right" timestamp="1590893523823">
+    <state width="1320" height="253" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590966548166" />
+    <state width="1320" height="253" key="GridCell.Tab.1.right" timestamp="1590966548167">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590893523823" />
+    <state width="1320" height="253" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590966548167" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -545,10 +546,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1587905193490" />
-    <state x="227" y="38" width="1139" height="730" key="SettingsEditor" timestamp="1590883711699">
+    <state x="227" y="38" width="1139" height="730" key="SettingsEditor" timestamp="1590932819979">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="227" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1590883711699" />
+    <state x="227" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1590932819979" />
     <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590931727814">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -589,10 +590,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1590887889613" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589496856002">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590956402971">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589496856002" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1590956402971" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
