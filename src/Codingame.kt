@@ -7,13 +7,5 @@ import java.util.*
 fun main(args: Array<String>) {
     val input = Scanner(System.`in`)
     val n = input.nextInt()
-    if (input.hasNextLine()) {
-        input.nextLine()
-    }
-    val c = input.nextLine()
-
-    for (i in 0 until n) {
-        val p = input.nextInt()
-        print("${c[p - 1]}")
-    }
+    println(n * (n + 1))
 }
