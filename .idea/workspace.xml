@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/aprilchallenge/LongestCommonSubsequence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codingame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codingame.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.JumpGameKt">
+  <component name="RunManager" selected="Kotlin.LongestCommonSubsequenceKt">
     <configuration name="BitwiseANDKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -138,19 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorRevolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.ColorRevolutionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JumpGameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -164,21 +151,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestCommonSubsequenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.aprilchallenge.LongestCommonSubsequenceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.ColorRevolutionKt" />
-      <item itemvalue="Kotlin.CodingameKt" />
-      <item itemvalue="Kotlin.BootCampKt" />
       <item itemvalue="Kotlin.BitwiseANDKt" />
+      <item itemvalue="Kotlin.BootCampKt" />
+      <item itemvalue="Kotlin.CodingameKt" />
       <item itemvalue="Kotlin.JumpGameKt" />
+      <item itemvalue="Kotlin.LongestCommonSubsequenceKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LongestCommonSubsequenceKt" />
+        <item itemvalue="Kotlin.CodingameKt" />
         <item itemvalue="Kotlin.JumpGameKt" />
         <item itemvalue="Kotlin.BitwiseANDKt" />
-        <item itemvalue="Kotlin.CodingameKt" />
         <item itemvalue="Kotlin.BootCampKt" />
-        <item itemvalue="Kotlin.ColorRevolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="HappyNumber.kt April Challenge solved with straightforward implementation." />
     <MESSAGE value="HappyNumber.kt April Challenge valuable comment added." />
     <MESSAGE value="Solution for April Challenge MaximumSubarray.kt" />
     <MESSAGE value="Solution for April Challenge BestTimeToBuyAndSellStock.kt.kt" />
@@ -467,7 +466,8 @@
     <MESSAGE value="Input object for reading from CommandLine" />
     <MESSAGE value="Solution for BootCamp.kt kotlin heroes 4 codeforces" />
     <MESSAGE value="Solution for BitwiseAND.kt april challenge leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for BitwiseAND.kt april challenge leetcode" />
+    <MESSAGE value="Solution for JumpGame.kt april challenge leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for JumpGame.kt april challenge leetcode" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -489,10 +489,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1587038975843" />
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1591123572435">
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1591185905751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591123572435" />
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591185905751" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -505,22 +505,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="222" y="18" width="912" height="730" key="GradleDaemons/0.0.1366.768@0.0.1366.768" timestamp="1583148648631" />
-    <state width="1320" height="253" key="GridCell.Tab.0.bottom" timestamp="1591128044815">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1591701020872">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591128044815" />
-    <state width="1320" height="253" key="GridCell.Tab.0.center" timestamp="1591128044814">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591701020872" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1591701020870">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591128044814" />
-    <state width="1320" height="253" key="GridCell.Tab.0.left" timestamp="1591128044814">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591701020870" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1591701020869">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591128044814" />
-    <state width="1320" height="253" key="GridCell.Tab.0.right" timestamp="1591128044814">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591701020869" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1591701020871">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="253" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591128044814" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591701020871" />
     <state width="1320" height="253" key="GridCell.Tab.1.bottom" timestamp="1591128044816">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -589,41 +589,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1591122579400" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590956402971">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591701035836">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1590956402971" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt</url>
-          <line>23</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/aprilchallenge/JumpGame.kt</url>
-          <line>22</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591701035836" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
