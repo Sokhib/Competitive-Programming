@@ -1,22 +1,12 @@
-import java.util.*
-
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
-fun main(args: Array<String>) {
-    val input = Scanner(System.`in`)
-    val Q = input.nextInt()
-    val N = input.nextInt()
-    var QQ = Q
-    for (i in 0 until N) {
-        val X = input.nextInt()
-        val Y = input.nextInt()
-        val Z = input.nextInt()
-
-        QQ -= (X + Y + Z)
-
+fun main() {
+    val Q = 6
+    val a = intArrayOf(2, 3)
+    val dp = IntArray(40) { 0 }
+    dp[0] = 1
+    for (i in 0 until Q) {
+        for (x in a)
+            dp[i + x] += dp[i]
     }
-    if (QQ >= 0) println(true)
-    else println(false)
+    println(dp[Q])
+    dp.forEach { print("$it ") }
 }
