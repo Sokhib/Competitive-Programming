@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/SingleElementInSortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/RemoveKDigits.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
@@ -86,19 +86,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.SingleElementInSortedArrayKt">
-    <configuration name="TestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.TestJava" />
-      <module name="CompetitiveProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.maychallenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckIfItIsStraightLineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -138,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveKDigitsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.RemoveKDigitsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleElementInSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -165,20 +165,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestJava" />
       <item itemvalue="Kotlin.Codeforces" />
       <item itemvalue="Kotlin.CheckIfItIsStraightLineKt" />
       <item itemvalue="Kotlin.FindTheTownJudgeKt" />
       <item itemvalue="Kotlin.ValidPerfectSquareKt" />
       <item itemvalue="Kotlin.SingleElementInSortedArrayKt" />
+      <item itemvalue="Kotlin.RemoveKDigitsKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.SingleElementInSortedArrayKt" />
+        <item itemvalue="Kotlin.RemoveKDigitsKt" />
         <item itemvalue="Kotlin.FindTheTownJudgeKt" />
         <item itemvalue="Kotlin.ValidPerfectSquareKt" />
         <item itemvalue="Kotlin.CheckIfItIsStraightLineKt" />
-        <item itemvalue="Application.TestJava" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for April Challenge ContiguousArray.kt &#10;Note: Approach is to find prefix sum and map them to their indexes and find max." />
     <MESSAGE value="Solution for April Challenge ProductOfArrayExceptSelf.kt.kt &#10;Note: Approach is by calculating suffix product and prefix product" />
     <MESSAGE value="Solution for April Challenge ValidParenthesisString.kt" />
     <MESSAGE value="Solution for April Challenge NumberOfIsland.kt&#10;Note: Approach is by BFS." />
@@ -467,7 +466,8 @@
     <MESSAGE value="Solution for CheckIfItIsStraightLine.kt of may challenge leetcode" />
     <MESSAGE value="Solution for ValidPerfectSquare.kt of may challenge leetcode" />
     <MESSAGE value="Solution for FindTheTownJudge.kt of may challenge leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for FindTheTownJudge.kt of may challenge leetcode" />
+    <MESSAGE value="Solution for SingleElementInSortedArray.kt of may challenge leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for SingleElementInSortedArray.kt of may challenge leetcode" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -493,10 +493,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1591704541267" />
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1592821067750">
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2" timestamp="1593160445118">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1592821067750" />
+    <state x="147" y="10" width="1126" height="758" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1593160445118" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1589403074733">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -509,38 +509,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592929156592" />
-    <state width="1320" height="309" key="GridCell.Tab.0.bottom" timestamp="1593159047507">
+    <state width="1320" height="309" key="GridCell.Tab.0.bottom" timestamp="1593435600075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593159047507" />
-    <state width="1320" height="309" key="GridCell.Tab.0.center" timestamp="1593159047506">
+    <state width="1320" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593435600075" />
+    <state width="1320" height="309" key="GridCell.Tab.0.center" timestamp="1593435600074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593159047506" />
-    <state width="1320" height="309" key="GridCell.Tab.0.left" timestamp="1593159047505">
+    <state width="1320" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593435600074" />
+    <state width="1320" height="309" key="GridCell.Tab.0.left" timestamp="1593435600074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593159047505" />
-    <state width="1320" height="309" key="GridCell.Tab.0.right" timestamp="1593159047507">
+    <state width="1320" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593435600074" />
+    <state width="1320" height="309" key="GridCell.Tab.0.right" timestamp="1593435600074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593159047507" />
-    <state width="1320" height="309" key="GridCell.Tab.1.bottom" timestamp="1593159047510">
+    <state width="1320" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593435600074" />
+    <state width="1320" height="309" key="GridCell.Tab.1.bottom" timestamp="1593435600076">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593159047510" />
-    <state width="1320" height="309" key="GridCell.Tab.1.center" timestamp="1593159047508">
+    <state width="1320" height="309" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593435600076" />
+    <state width="1320" height="309" key="GridCell.Tab.1.center" timestamp="1593435600075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1593159047508" />
-    <state width="1320" height="309" key="GridCell.Tab.1.left" timestamp="1593159047508">
+    <state width="1320" height="309" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1593435600075" />
+    <state width="1320" height="309" key="GridCell.Tab.1.left" timestamp="1593435600075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1593159047508" />
-    <state width="1320" height="309" key="GridCell.Tab.1.right" timestamp="1593159047509">
+    <state width="1320" height="309" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1593435600075" />
+    <state width="1320" height="309" key="GridCell.Tab.1.right" timestamp="1593435600075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="309" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1593159047509" />
+    <state width="1320" height="309" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1593435600075" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -553,10 +553,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="227" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1592612772731" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1592824596124">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593160455008">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1592824596124" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593160455008" />
     <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587905496772">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -569,18 +569,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1591705482220" />
-    <state x="322" y="172" width="711" height="421" key="git4idea.merge.GitPullDialog" timestamp="1584545929807">
+    <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1593426909460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="322" y="172" width="711" height="421" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1584545929807" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1592785138083">
+    <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1593426909460" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1593428141600">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1592785138083" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1592611947614">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593428141600" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1593427001468">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1592611947614" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1593427001468" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,6 +609,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/SingleElementInSortedArray.kt</url>
           <line>7</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/RemoveKDigits.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

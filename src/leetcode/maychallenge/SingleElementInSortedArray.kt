@@ -4,15 +4,11 @@ import kotlin.test.assertEquals
 
 private object SingleElementInSortedArray {
     fun singleNonDuplicate(nums: IntArray): Int {
-        val size = nums.size
-        if (size == 1) return nums[0]
-        if (nums.isEmpty()) return 0
-        if (nums[0] != nums[1]) return nums[0]
-        if (nums[size - 1] != nums[size - 2]) return nums[size - 1]
-        for (i in 0 until size - 2 step 2) {
-            if (nums[i] != nums[i + 1]) return nums[i]
+        var ans = 0
+        for (i in nums) {
+            ans = ans xor i
         }
-        return 0
+        return ans
     }
 }
 
