@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/SortCharactersByFrequency.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/UncrossedLines.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SortCharactersByFrequencyKt">
+  <component name="RunManager" selected="Kotlin.UncrossedLinesKt">
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -107,19 +108,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.CountSquareSubmatricesWithAllOnesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAllAnagramsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.FindAllAnagramsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,21 +152,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UncrossedLinesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.UncrossedLinesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.FindAllAnagramsKt" />
       <item itemvalue="Kotlin.MaximumSumCircularSubarrayKt" />
       <item itemvalue="Kotlin.PermutationInStringKt" />
       <item itemvalue="Kotlin.CountSquareSubmatricesWithAllOnesKt" />
       <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
+      <item itemvalue="Kotlin.UncrossedLinesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UncrossedLinesKt" />
         <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
         <item itemvalue="Kotlin.CountSquareSubmatricesWithAllOnesKt" />
         <item itemvalue="Kotlin.PermutationInStringKt" />
         <item itemvalue="Kotlin.MaximumSumCircularSubarrayKt" />
-        <item itemvalue="Kotlin.FindAllAnagramsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for April Challenge SubarraySumEqualsK.kt&#10;Note: Solution is straightforward, for every index iterate and try to form K" />
     <MESSAGE value="Slightly different, more readable solution for SumOfRoundNumbers.kt" />
     <MESSAGE value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
     <MESSAGE value="Solution for first 2 problems of round644div3 contest codeforces." />
@@ -467,7 +467,8 @@
     <MESSAGE value="Solution for FindAllAnagrams.kt of may challenge leetcode." />
     <MESSAGE value="Solution for MaximumSumCircularSubarray.kt of may challenge leetcode." />
     <MESSAGE value="Solution for PermutationInString.kt and CountSquareSubmatricesWithAllOnes.kt of may challenge leetcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for PermutationInString.kt and CountSquareSubmatricesWithAllOnes.kt of may challenge leetcode." />
+    <MESSAGE value="Solution for SortCharactersByFrequency.kt of may challenge leetcode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for SortCharactersByFrequency.kt of may challenge leetcode." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -493,10 +494,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1593685813608" />
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1593964722873">
+    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594067159944">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1593964722873" />
+    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594067159944" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1593450934573">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -509,22 +510,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592929156592" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1594066841602">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1594123330392">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594066841602" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1594066841601">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1594123330392">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594066841601" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1594066841601">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1594123330391">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594066841601" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1594066841602">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594123330391" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1594123330392">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594066841602" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
     <state width="1320" height="389" key="GridCell.Tab.1.bottom" timestamp="1593964741517">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -553,10 +554,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="227" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1592612772731" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593964731338">
+    <state x="526" y="299" width="303" height="168" key="VCS.ChangelistChooser" timestamp="1594068460561">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593964731338" />
+    <state x="526" y="299" width="303" height="168" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1594068460561" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594121565725">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594121565725" />
     <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587905496772">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -565,6 +570,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587037979101" />
+    <state x="336" y="0" width="683" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594067938536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="336" y="0" width="683" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1594067938536" />
     <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593685866522">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -573,14 +582,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1593426909460" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1593792022138">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1594068372328">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593792022138" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1593962478845">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1594068372328" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594121629549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1593962478845" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594121629549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
