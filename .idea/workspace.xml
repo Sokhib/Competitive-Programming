@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/UncrossedLines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeforces/NewYearTransportation500A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/CountingBits.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/PossibleBipartition.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompetitiveProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompetitiveProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +89,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.UncrossedLinesKt">
+  <component name="RunManager" selected="Kotlin.NewYearTransportation500AKt">
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -100,40 +103,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSquareSubmatricesWithAllOnesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingBitsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.CountSquareSubmatricesWithAllOnesKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.CountingBitsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumCircularSubarrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NewYearTransportation500AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.MaximumSumCircularSubarrayKt" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.NewYearTransportation500AKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationInStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="PossibleBipartitionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.PermutationInStringKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.PossibleBipartitionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.MaximumSumCircularSubarrayKt" />
-      <item itemvalue="Kotlin.PermutationInStringKt" />
-      <item itemvalue="Kotlin.CountSquareSubmatricesWithAllOnesKt" />
       <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
       <item itemvalue="Kotlin.UncrossedLinesKt" />
+      <item itemvalue="Kotlin.PossibleBipartitionKt" />
+      <item itemvalue="Kotlin.CountingBitsKt" />
+      <item itemvalue="Kotlin.NewYearTransportation500AKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NewYearTransportation500AKt" />
+        <item itemvalue="Kotlin.CountingBitsKt" />
+        <item itemvalue="Kotlin.PossibleBipartitionKt" />
         <item itemvalue="Kotlin.UncrossedLinesKt" />
         <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
-        <item itemvalue="Kotlin.CountSquareSubmatricesWithAllOnesKt" />
-        <item itemvalue="Kotlin.PermutationInStringKt" />
-        <item itemvalue="Kotlin.MaximumSumCircularSubarrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Slightly different, more readable solution for SumOfRoundNumbers.kt" />
     <MESSAGE value="Solution for AliceBobAndCandies.kt and error fixed for Square.kt" />
     <MESSAGE value="Solution for first 2 problems of round644div3 contest codeforces." />
     <MESSAGE value="Solution for SimilarPairs.kt problem of round644div3 contest codeforces." />
@@ -468,7 +470,8 @@
     <MESSAGE value="Solution for MaximumSumCircularSubarray.kt of may challenge leetcode." />
     <MESSAGE value="Solution for PermutationInString.kt and CountSquareSubmatricesWithAllOnes.kt of may challenge leetcode." />
     <MESSAGE value="Solution for SortCharactersByFrequency.kt of may challenge leetcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for SortCharactersByFrequency.kt of may challenge leetcode." />
+    <MESSAGE value="Solution for UncrossedLines.kt of may challenge leetcode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for UncrossedLines.kt of may challenge leetcode." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -494,10 +497,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1593685813608" />
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594067159944">
+    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594123369815">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594067159944" />
+    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594123369815" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1593450934573">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -510,38 +513,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592929156592" />
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1594123330392">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom" timestamp="1594220877495">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
-    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1594123330392">
+    <state width="1320" height="268" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594220877495" />
+    <state width="1320" height="268" key="GridCell.Tab.0.center" timestamp="1594220877494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
-    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1594123330391">
+    <state width="1320" height="268" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594220877494" />
+    <state width="1320" height="268" key="GridCell.Tab.0.left" timestamp="1594220877494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594123330391" />
-    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1594123330392">
+    <state width="1320" height="268" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594220877494" />
+    <state width="1320" height="268" key="GridCell.Tab.0.right" timestamp="1594220877495">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594123330392" />
-    <state width="1320" height="389" key="GridCell.Tab.1.bottom" timestamp="1593964741517">
+    <state width="1320" height="268" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594220877495" />
+    <state width="1320" height="412" key="GridCell.Tab.1.bottom" timestamp="1594220876133">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="389" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593964741517" />
-    <state width="1320" height="389" key="GridCell.Tab.1.center" timestamp="1593964741516">
+    <state width="1320" height="412" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594220876133" />
+    <state width="1320" height="412" key="GridCell.Tab.1.center" timestamp="1594220876132">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="389" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1593964741516" />
-    <state width="1320" height="389" key="GridCell.Tab.1.left" timestamp="1593964741516">
+    <state width="1320" height="412" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594220876132" />
+    <state width="1320" height="412" key="GridCell.Tab.1.left" timestamp="1594220876131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="389" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1593964741516" />
-    <state width="1320" height="389" key="GridCell.Tab.1.right" timestamp="1593964741517">
+    <state width="1320" height="412" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594220876131" />
+    <state width="1320" height="412" key="GridCell.Tab.1.right" timestamp="1594220876133">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="389" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1593964741517" />
+    <state width="1320" height="412" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594220876133" />
     <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -586,10 +589,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1594068372328" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594121629549">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594217252474">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594121629549" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594217252474" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,6 +621,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/CountSquareSubmatricesWithAllOnes.kt</url>
           <line>10</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/codeforces/NewYearTransportation500A.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
