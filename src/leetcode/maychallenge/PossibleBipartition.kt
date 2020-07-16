@@ -2,30 +2,45 @@ package leetcode.maychallenge
 
 import kotlin.test.assertEquals
 
-private fun possibleBipartition(N: Int, dislikes: Array<IntArray>): Boolean {
-    if (N <= 2) return true
-    dislikes.sortBy { it.first() }
-    val group1 = HashMap<Int, Boolean>()
-    val group2 = HashMap<Int, Boolean>()
-    group1[dislikes[0][0]] = true
-    group2[dislikes[0][1]] = true
-    for (i in 1 until dislikes.size) {
-        if (group1.containsKey(dislikes[i][0]) && group1.containsKey(dislikes[i][1])) return false
-        if (group2.containsKey(dislikes[i][0]) && group2.containsKey(dislikes[i][1])) return false
 
-        if (group1.containsKey(dislikes[i][0]) && !group1.containsKey(dislikes[i][1]))
-            group2[dislikes[i][1]] = true
-        else if (group2.containsKey(dislikes[i][0]) && !group2.containsKey(dislikes[i][1]))
-            group1[dislikes[i][1]] = true
-        else if (!group1.containsKey(dislikes[i][0]) && !group2.containsKey(dislikes[i][1])) {
-            group1[dislikes[i][0]] = true
-            group2[dislikes[i][1]] = true
+private fun possibleBipartition(N: Int, dislikes: Array<IntArray>): Boolean {
+    val edges = HashMap<Int, ArrayList<Int>>()
+    var ok = true
+    val colors = IntArray(N + 1) { -1 }
+    fun dfs(u: Int, color: Int) {
+        for (v in edges[u]!!) {
+            if (colors[v] == -1) {
+                colors[v] = color xor 1
+                dfs(v, colors[v])
+            } else if (colors[v] == color) {
+                ok = false
+            }
         }
     }
-    return true
+
+    for (e in dislikes) {
+        if (edges.containsKey(e[0])) {
+            edges[e[0]]!!.add(e[1])
+        } else {
+            edges[e[0]] = arrayListOf(e[1])
+        }
+        if (edges.containsKey(e[1])) {
+            edges[e[1]]!!.add(e[0])
+        } else {
+            edges[e[1]] = arrayListOf(e[0])
+        }
+    }
+    for (vertex in edges.keys) {
+        if (colors[vertex] == -1) {
+            colors[vertex] = 0
+            dfs(vertex, colors[vertex])
+        }
+    }
+    return ok
 }
 
 fun main() {
+    assertEquals(true, possibleBipartition(4, arrayOf(intArrayOf(1, 2), intArrayOf(1, 3), intArrayOf(2, 4))))
     assertEquals(
         false,
         possibleBipartition(
@@ -33,5 +48,4 @@ fun main() {
             arrayOf(intArrayOf(1, 2), intArrayOf(2, 3), intArrayOf(3, 4), intArrayOf(4, 5), intArrayOf(1, 5))
         )
     )
-    assertEquals(true, possibleBipartition(4, arrayOf(intArrayOf(1, 2), intArrayOf(1, 3), intArrayOf(2, 4))))
 }
