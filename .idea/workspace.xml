@@ -20,14 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codeforces/NewYearTransportation500A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/CountingBits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/PossibleBipartition.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/KClosestPointsOrigin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompetitiveProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompetitiveProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/BestTimeToBuyAndSellStock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ClimbingStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/ClimbingStairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/DecompressRunLengthEncodedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/DecompressRunLengthEncodedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/DefangingIPAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/DefangingIPAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/FindNumbersWithEvenNumberOfDigits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/FindNumbersWithEvenNumberOfDigits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/HouseRobber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/HouseRobber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/IsSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/IsSubsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/JewelsAndStones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/JewelsAndStones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Maximum69Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/Maximum69Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/MinimumTimeVisitingAllPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/MinimumTimeVisitingAllPoints.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ReverseArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/ReverseArrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/SplitStringInBalancedStrings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/SplitStringInBalancedStrings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/TwoSum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +95,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/leetcode/mixed" />
       <recent name="$PROJECT_DIR$/src/leetcode/maychallenge" />
       <recent name="$PROJECT_DIR$/src/Codeforces" />
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NewYearTransportation500AKt">
+  <component name="RunManager" selected="Kotlin.KClosestPointsOriginKt">
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -113,6 +123,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.CountingBitsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KClosestPointsOriginKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.KClosestPointsOriginKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCharactersByFrequencyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.SortCharactersByFrequencyKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UncrossedLinesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -172,19 +182,19 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
       <item itemvalue="Kotlin.UncrossedLinesKt" />
       <item itemvalue="Kotlin.PossibleBipartitionKt" />
       <item itemvalue="Kotlin.CountingBitsKt" />
       <item itemvalue="Kotlin.NewYearTransportation500AKt" />
+      <item itemvalue="Kotlin.KClosestPointsOriginKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KClosestPointsOriginKt" />
         <item itemvalue="Kotlin.NewYearTransportation500AKt" />
         <item itemvalue="Kotlin.CountingBitsKt" />
         <item itemvalue="Kotlin.PossibleBipartitionKt" />
         <item itemvalue="Kotlin.UncrossedLinesKt" />
-        <item itemvalue="Kotlin.SortCharactersByFrequencyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for first 2 problems of round644div3 contest codeforces." />
     <MESSAGE value="Solution for SimilarPairs.kt problem of round644div3 contest codeforces." />
     <MESSAGE value="Solution for BuyingShovels.kt problem of round644div3 contest codeforces." />
     <MESSAGE value="Solution for ColorRevolution.kt problem of Kotlin Heroes contest Codeforces." />
@@ -473,7 +482,8 @@
     <MESSAGE value="Solution for SortCharactersByFrequency.kt of may challenge leetcode." />
     <MESSAGE value="Solution for UncrossedLines.kt of may challenge leetcode." />
     <MESSAGE value="Solution for CountingBits.kt of may challenge leetcode.&#10;Solution for NewYearTransportation500A.kt of codeforces." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for CountingBits.kt of may challenge leetcode.&#10;Solution for NewYearTransportation500A.kt of codeforces." />
+    <MESSAGE value="Solution for CourseSchedule.kt of may challenge leetcode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for CourseSchedule.kt of may challenge leetcode." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -499,10 +509,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1593685813608" />
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594221413620">
+    <state x="205" y="45" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594937865343">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="186" y="79" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594221413620" />
+    <state x="205" y="45" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594937865343" />
     <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1593450934573">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -515,22 +525,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592929156592" />
-    <state width="1320" height="412" key="GridCell.Tab.0.bottom" timestamp="1594221224978">
+    <state width="1324" height="311" key="GridCell.Tab.0.bottom" timestamp="1595078250141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="412" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594221224978" />
-    <state width="1320" height="412" key="GridCell.Tab.0.center" timestamp="1594221224973">
+    <state width="1324" height="311" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595078250141" />
+    <state width="1324" height="311" key="GridCell.Tab.0.center" timestamp="1595078250140">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="412" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594221224973" />
-    <state width="1320" height="412" key="GridCell.Tab.0.left" timestamp="1594221224972">
+    <state width="1324" height="311" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595078250140" />
+    <state width="1324" height="311" key="GridCell.Tab.0.left" timestamp="1595078250140">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="412" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594221224972" />
-    <state width="1320" height="412" key="GridCell.Tab.0.right" timestamp="1594221224978">
+    <state width="1324" height="311" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595078250140" />
+    <state width="1324" height="311" key="GridCell.Tab.0.right" timestamp="1595078250141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="412" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594221224978" />
+    <state width="1324" height="311" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595078250141" />
     <state width="1320" height="412" key="GridCell.Tab.1.bottom" timestamp="1594221224980">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -547,10 +557,6 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="412" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594221224979" />
-    <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog" timestamp="1586272614269">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="389" y="98" width="578" height="570" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1586272614269" />
     <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1593450704639">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -563,10 +569,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="526" y="299" width="303" height="168" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1594068460561" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594121565725">
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594937878078">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594121565725" />
+    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594937878078" />
     <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587905496772">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -587,10 +593,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1593426909460" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1594068372328">
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1595077154573">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1594068372328" />
+    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595077154573" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594217252474">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -628,6 +634,16 @@
           <url>file://$PROJECT_DIR$/src/codeforces/NewYearTransportation500A.kt</url>
           <line>20</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/KClosestPointsOrigin.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/KClosestPointsOrigin.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

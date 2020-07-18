@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution392 {
     fun isSubsequence(s: String, t: String): Boolean {

@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution1281 {
     fun subtractProductAndSum(n: Int): Int {

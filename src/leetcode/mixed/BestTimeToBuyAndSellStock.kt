@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution121 {
     fun maxProfit(prices: IntArray): Int {

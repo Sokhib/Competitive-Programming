@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 /*
 * You are a professional robber planning to rob houses along a street.

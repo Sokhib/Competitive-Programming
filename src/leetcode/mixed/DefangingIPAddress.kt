@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution1 {
     fun defangIPaddr(address: String): String {

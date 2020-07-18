@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution1221 {
     fun balancedStringSplit(s: String): Int {

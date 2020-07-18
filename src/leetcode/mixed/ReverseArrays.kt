@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution189 {
     fun rotate(nums: IntArray, k: Int) {

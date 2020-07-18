@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 class Solution2 {
     fun decompressRLElist(nums: IntArray): IntArray {

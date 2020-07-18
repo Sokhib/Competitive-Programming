@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.mixed
 
 object Solution70 {
     fun climbStairs(n: Int) = fibonacci(n)
