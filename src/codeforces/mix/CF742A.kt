@@ -1,8 +1,6 @@
-package codeforces
+package codeforces.mix
 
-import java.util.*
-
-private object Input {
+private object Read {
     fun readLn() = readLine()!! // string line
     fun readInt() = readLn().toInt() // single int
     fun readLong() = readLn().toLong() // single long
@@ -13,19 +11,18 @@ private object Input {
     fun readDoubles() = readStrings().map { it.toDouble() } // list of doubles
 }
 
-fun main() {
-    val (n, t) = Input.readInts()
-    val cells = Input.readInts()
-
-    val queue = LinkedList<Int>()
-    queue.add(0)
-    while (!queue.isEmpty() && queue.first < t) {
-        val element = queue.pop()
-        if (element == t - 1) {
-            println("YES")
-            return
-        }
-        queue.add(element + cells[element])
+private fun arpasExam(degree: Int): Int = if (degree == 0) 1
+else {
+    when (degree % 4) {
+        1 -> 8
+        2 -> 4
+        3 -> 2
+        0 -> 6
+        else -> 0
     }
-    println("NO")
+}
+
+
+fun main() {
+    println(arpasExam(Read.readInt()))
 }

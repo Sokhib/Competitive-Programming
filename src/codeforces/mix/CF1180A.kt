@@ -1,4 +1,4 @@
-package codeforces
+package codeforces.mix
 
 import java.util.*
 import kotlin.math.pow
