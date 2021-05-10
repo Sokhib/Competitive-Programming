@@ -19,24 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/maychallenge/KClosestPointsOrigin.kt" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for CourseSchedule.kt of may challenge leetcode.">
+      <change afterPath="$PROJECT_DIR$/src/dersler/OperatorFun.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/KidsWiththeGreatestNumberofCandies.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/META-INF/CompetitiveProgramming.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/BestTimeToBuyAndSellStock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ClimbingStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/ClimbingStairs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/DecompressRunLengthEncodedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/DecompressRunLengthEncodedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/DefangingIPAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/DefangingIPAddress.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/FindNumbersWithEvenNumberOfDigits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/FindNumbersWithEvenNumberOfDigits.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/HouseRobber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/HouseRobber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/IsSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/IsSubsequence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/JewelsAndStones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/JewelsAndStones.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Maximum69Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/Maximum69Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/MinimumTimeVisitingAllPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/MinimumTimeVisitingAllPoints.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ReverseArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/ReverseArrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/SplitStringInBalancedStrings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/SplitStringInBalancedStrings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/SubtractTheProductAndSumOfDigitsOfAnInteger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/TwoSum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/junechallenge/TwoCityScheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/junechallenge/TwoCityScheduling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/mixed/HouseRobber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mixed/HouseRobber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +77,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +90,33 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KClosestPointsOriginKt">
+  <component name="RunManager" selected="Application.OperatorFunKt">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AliceBobAndCandiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.AliceBobAndCandiesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Codeforces" type="JetRunConfigurationType">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" value="" />
@@ -115,32 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingBitsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.CountingBitsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KClosestPointsOriginKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.KClosestPointsOriginKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewYearTransportation500AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -149,6 +138,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="codeforces.NewYearTransportation500AKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dersler.OperatorFunKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,23 +183,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Codeforces" />
-      <item itemvalue="Kotlin.UncrossedLinesKt" />
-      <item itemvalue="Kotlin.PossibleBipartitionKt" />
-      <item itemvalue="Kotlin.CountingBitsKt" />
-      <item itemvalue="Kotlin.NewYearTransportation500AKt" />
-      <item itemvalue="Kotlin.KClosestPointsOriginKt" />
+      <item itemvalue="Application.Codeforces" />
+      <item itemvalue="Application.NewYearTransportation500AKt" />
+      <item itemvalue="Application.PossibleBipartitionKt" />
+      <item itemvalue="Application.UncrossedLinesKt" />
+      <item itemvalue="Application.AliceBobAndCandiesKt" />
+      <item itemvalue="Application.OperatorFunKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KClosestPointsOriginKt" />
-        <item itemvalue="Kotlin.NewYearTransportation500AKt" />
-        <item itemvalue="Kotlin.CountingBitsKt" />
-        <item itemvalue="Kotlin.PossibleBipartitionKt" />
-        <item itemvalue="Kotlin.UncrossedLinesKt" />
+        <item itemvalue="Application.OperatorFunKt" />
+        <item itemvalue="Application.AliceBobAndCandiesKt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -259,6 +259,8 @@
       <workItem from="1585498312553" duration="1244000" />
       <workItem from="1585499585014" duration="5382000" />
       <workItem from="1586091684736" duration="492000" />
+      <workItem from="1620567039416" duration="2013000" />
+      <workItem from="1620608589834" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -439,7 +441,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -488,120 +490,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="166" y="0" width="1024" height="768" key="#Project_Structure" timestamp="1588806723068">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="166" y="0" width="1024" height="768" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1588806723068" />
-    <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590885926470">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="229" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1590885926470" />
-    <state x="316" y="112" width="990" height="541" key="#com.intellij.ide.util.ExportDialog" timestamp="1590242963193">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="316" y="112" width="990" height="541" key="#com.intellij.ide.util.ExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1590242963193" />
-    <state x="220" y="0" width="916" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592782199311">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="220" y="0" width="916" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1592782199311" />
-    <state x="755" y="13" key="#xdebugger.evaluate" timestamp="1593685813608">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="755" y="13" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1593685813608" />
-    <state x="205" y="45" width="1126" height="670" key="CommitChangelistDialog2" timestamp="1594937865343">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="205" y="45" width="1126" height="670" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594937865343" />
-    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog" timestamp="1593450934573">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="127" y="61" width="1092" height="644" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1593450934573" />
-    <state x="609" y="101" width="314" height="526" key="EnvironmentVariablesDialog" timestamp="1590885917068">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="609" y="101" width="314" height="526" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1590885917068" />
-    <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592929156592">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="466" y="141" width="424" height="484" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1592929156592" />
-    <state width="1324" height="311" key="GridCell.Tab.0.bottom" timestamp="1595078250141">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1324" height="311" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595078250141" />
-    <state width="1324" height="311" key="GridCell.Tab.0.center" timestamp="1595078250140">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1324" height="311" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595078250140" />
-    <state width="1324" height="311" key="GridCell.Tab.0.left" timestamp="1595078250140">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1324" height="311" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595078250140" />
-    <state width="1324" height="311" key="GridCell.Tab.0.right" timestamp="1595078250141">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1324" height="311" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595078250141" />
-    <state width="1320" height="412" key="GridCell.Tab.1.bottom" timestamp="1594221224980">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="412" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594221224980" />
-    <state width="1320" height="412" key="GridCell.Tab.1.center" timestamp="1594221224979">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="412" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594221224979" />
-    <state width="1320" height="412" key="GridCell.Tab.1.left" timestamp="1594221224979">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="412" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594221224979" />
-    <state width="1320" height="412" key="GridCell.Tab.1.right" timestamp="1594221224979">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="412" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594221224979" />
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog" timestamp="1593450704639">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="368" y="11" width="619" height="744" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1593450704639" />
-    <state x="227" y="38" width="1139" height="730" key="SettingsEditor" timestamp="1592612772731">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="227" y="38" width="1139" height="730" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1592612772731" />
-    <state x="526" y="299" width="303" height="168" key="VCS.ChangelistChooser" timestamp="1594068460561">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="526" y="299" width="303" height="168" key="VCS.ChangelistChooser/0.0.1366.768@0.0.1366.768" timestamp="1594068460561" />
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594937878078">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="278" y="105" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594937878078" />
-    <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587905496772">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="100" y="98" width="1166" height="570" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1587905496772" />
-    <state x="339" y="192" width="690" height="338" key="com.intellij.ide.util.TipDialog" timestamp="1587037979101">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="339" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587037979101" />
-    <state x="336" y="0" width="683" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594067938536">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="336" y="0" width="683" height="765" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1594067938536" />
-    <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593685866522">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="215" y="40" width="926" height="686" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1593685866522" />
-    <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1593426909460">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="402" y="155" width="551" height="455" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1593426909460" />
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup" timestamp="1595077154573">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="347" y="153" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595077154573" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594217252474">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594217252474" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -649,8 +537,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/CompetitiveProgramming$hackerrank_NonDivisibleSubsetKt.ic" NAME="hackerrank.NonDivisibleSubsetKt Coverage Results" MODIFIED="1583926428255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$FindTheTownJudgeKt.ic" NAME="FindTheTownJudgeKt Coverage Results" MODIFIED="1592820156949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$hackerrank_NonDivisibleSubsetKt.ic" NAME="hackerrank.NonDivisibleSubsetKt Coverage Results" MODIFIED="1583926428255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

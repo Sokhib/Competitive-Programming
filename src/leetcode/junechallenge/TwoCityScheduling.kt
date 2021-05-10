@@ -3,7 +3,7 @@ package leetcode.junechallenge
 private fun twoCitySchedCost(costs: Array<IntArray>): Int {
     var sum = 0
     costs.forEach {
-        sum += (it.min()!!)
+        sum += (it.minOrNull()!!)
     }
     return sum
 }

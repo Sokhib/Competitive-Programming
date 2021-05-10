@@ -28,9 +28,9 @@ object Solution198 {
         dp[0] = nums[0]
         dp[1] = nums[1]
         for (i in 2 until nums.size) {
-            dp[i] = dp.sliceArray(0..(i - 2)).max()!! + nums[i]
+            dp[i] = dp.sliceArray(0..(i - 2)).maxOrNull()!! + nums[i]
         }
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 }
 
