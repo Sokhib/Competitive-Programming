@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for KidsWiththeGreatestNumberofCandies.kt of leetcode.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/GoalParserInterpretation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt">
+  <component name="RunManager" selected="Application.GoalParserInterpretationKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,19 +108,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AliceBobAndCandiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codeforces.kotlinheroes4.AliceBobAndCandiesKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +133,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="dersler.FinancialSheetKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoalParserInterpretationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.may2021.GoalParserInterpretationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.may2021.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,33 +190,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncrossedLinesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.maychallenge.UncrossedLinesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Codeforces" />
-      <item itemvalue="Application.UncrossedLinesKt" />
-      <item itemvalue="Application.AliceBobAndCandiesKt" />
       <item itemvalue="Application.OperatorFunKt" />
       <item itemvalue="Application.FinancialSheetKt" />
       <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
+      <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
+      <item itemvalue="Application.GoalParserInterpretationKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoalParserInterpretationKt" />
+        <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
         <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
         <item itemvalue="Application.FinancialSheetKt" />
         <item itemvalue="Application.OperatorFunKt" />
-        <item itemvalue="Application.AliceBobAndCandiesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +276,10 @@
       <workItem from="1621194842917" duration="13068000" />
       <workItem from="1621253167183" duration="249000" />
       <workItem from="1621520252215" duration="1516000" />
+      <workItem from="1621755085528" duration="3198000" />
+      <workItem from="1622040243287" duration="66000" />
+      <workItem from="1622220817415" duration="3309000" />
+      <workItem from="1623334926837" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -457,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620609713529</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode.">
+      <created>1621755281377</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621755281377</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +493,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for BuyingShovels.kt problem of round644div3 contest codeforces." />
     <MESSAGE value="Solution for ColorRevolution.kt problem of Kotlin Heroes contest Codeforces." />
     <MESSAGE value="Input object for reading from CommandLine" />
     <MESSAGE value="Solution for BootCamp.kt kotlin heroes 4 codeforces" />
@@ -505,7 +517,8 @@
     <MESSAGE value="Solution for CountingBits.kt of may challenge leetcode.&#10;Solution for NewYearTransportation500A.kt of codeforces." />
     <MESSAGE value="Solution for CourseSchedule.kt of may challenge leetcode." />
     <MESSAGE value="Solution for KidsWiththeGreatestNumberofCandies.kt of leetcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for KidsWiththeGreatestNumberofCandies.kt of leetcode." />
+    <MESSAGE value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -559,6 +572,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$FindTheTownJudgeKt.ic" NAME="FindTheTownJudgeKt Coverage Results" MODIFIED="1592820156949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$hackerrank_NonDivisibleSubsetKt.ic" NAME="hackerrank.NonDivisibleSubsetKt Coverage Results" MODIFIED="1583926428255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$GoalParserInterpretationKt.ic" NAME="GoalParserInterpretationKt Coverage Results" MODIFIED="1622222640258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
