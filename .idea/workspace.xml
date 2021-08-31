@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/GoalParserInterpretation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/may2021/MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/junechallenge/CheckifWordEqualsSummationofTwoWords.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,16 +97,16 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoalParserInterpretationKt">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+  <component name="RunManager" selected="Application.CheckifWordEqualsSummationofTwoWordsKt">
+    <configuration name="CheckifWordEqualsSummationofTwoWordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.junechallenge.CheckifWordEqualsSummationofTwoWordsKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,19 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dersler.OperatorFunKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="VM_PARAMETERS" />
@@ -192,19 +178,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Codeforces" />
-      <item itemvalue="Application.OperatorFunKt" />
       <item itemvalue="Application.FinancialSheetKt" />
       <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
       <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
       <item itemvalue="Application.GoalParserInterpretationKt" />
+      <item itemvalue="Application.CheckifWordEqualsSummationofTwoWordsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckifWordEqualsSummationofTwoWordsKt" />
         <item itemvalue="Application.GoalParserInterpretationKt" />
         <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
         <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
         <item itemvalue="Application.FinancialSheetKt" />
-        <item itemvalue="Application.OperatorFunKt" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +265,7 @@
       <workItem from="1621755085528" duration="3198000" />
       <workItem from="1622040243287" duration="66000" />
       <workItem from="1622220817415" duration="3309000" />
-      <workItem from="1623334926837" duration="599000" />
+      <workItem from="1623334926837" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -470,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621755281377</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt">
+      <created>1623337258561</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1623337258561</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for ColorRevolution.kt problem of Kotlin Heroes contest Codeforces." />
     <MESSAGE value="Input object for reading from CommandLine" />
     <MESSAGE value="Solution for BootCamp.kt kotlin heroes 4 codeforces" />
     <MESSAGE value="Solution for BitwiseAND.kt april challenge leetcode" />
@@ -518,7 +510,8 @@
     <MESSAGE value="Solution for CourseSchedule.kt of may challenge leetcode." />
     <MESSAGE value="Solution for KidsWiththeGreatestNumberofCandies.kt of leetcode." />
     <MESSAGE value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
+    <MESSAGE value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
