@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/junechallenge/CheckifWordEqualsSummationofTwoWords.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/year2k23/PalindromeNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +78,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ToolWindowCommit.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/leetcode/mixed" />
@@ -97,100 +100,63 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckifWordEqualsSummationofTwoWordsKt">
+  <component name="RunManager" selected="Kotlin.PalindromeNumberKt">
     <configuration name="CheckifWordEqualsSummationofTwoWordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.junechallenge.CheckifWordEqualsSummationofTwoWordsKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="CompetitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Codeforces" type="JetRunConfigurationType">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="CF1230A" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinancialSheetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dersler.FinancialSheetKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="GoalParserInterpretationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.may2021.GoalParserInterpretationKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="CompetitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.may2021.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="CompetitiveProgramming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.year2k23.PalindromeNumberKt" />
+      <module name="CompetitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.may2021.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="CompetitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Codeforces" />
-      <item itemvalue="Application.FinancialSheetKt" />
-      <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
-      <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
-      <item itemvalue="Application.GoalParserInterpretationKt" />
-      <item itemvalue="Application.CheckifWordEqualsSummationofTwoWordsKt" />
+      <item itemvalue="Kotlin.Codeforces" />
+      <item itemvalue="Kotlin.PalindromeNumberKt" />
+      <item itemvalue="Kotlin.CheckifWordEqualsSummationofTwoWordsKt" />
+      <item itemvalue="Kotlin.GoalParserInterpretationKt" />
+      <item itemvalue="Kotlin.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
+      <item itemvalue="Kotlin.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckifWordEqualsSummationofTwoWordsKt" />
-        <item itemvalue="Application.GoalParserInterpretationKt" />
-        <item itemvalue="Application.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
-        <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
-        <item itemvalue="Application.FinancialSheetKt" />
+        <item itemvalue="Kotlin.PalindromeNumberKt" />
+        <item itemvalue="Kotlin.CheckifWordEqualsSummationofTwoWordsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +232,9 @@
       <workItem from="1622040243287" duration="66000" />
       <workItem from="1622220817415" duration="3309000" />
       <workItem from="1623334926837" duration="5059000" />
+      <workItem from="1690305295182" duration="27000" />
+      <workItem from="1690305328530" duration="1299000" />
+      <workItem from="1690355580353" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -482,7 +451,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -563,8 +531,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CompetitiveProgramming$FindTheTownJudgeKt.ic" NAME="FindTheTownJudgeKt Coverage Results" MODIFIED="1592820156949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$hackerrank_NonDivisibleSubsetKt.ic" NAME="hackerrank.NonDivisibleSubsetKt Coverage Results" MODIFIED="1583926428255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$FindTheTownJudgeKt.ic" NAME="FindTheTownJudgeKt Coverage Results" MODIFIED="1592820156949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$GoalParserInterpretationKt.ic" NAME="GoalParserInterpretationKt Coverage Results" MODIFIED="1622222640258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$ValidParenthesisStringKt.ic" NAME="ValidParenthesisStringKt Coverage Results" MODIFIED="1589025286432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
