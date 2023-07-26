@@ -28,6 +28,25 @@ fun Int.length() = when (this) {
     else -> log10(abs(toDouble())).toInt() + 1
 }
 
+fun isPalindromeGPT(x: Int): Boolean {
+    // Handle negative numbers and numbers ending with 0
+    if (x < 0 || (x % 10 == 0 && x != 0)) {
+        return false
+    }
+
+    var original = x
+    var reversed = 0
+
+    while (original > reversed) {
+        val digit = original % 10
+        reversed = reversed * 10 + digit
+        original /= 10
+    }
+
+    // For odd-length palindromes, we remove the middle digit from the reversed number
+    return original == reversed || original == reversed / 10
+}
+
 fun main() {
     isPalindrome(1221).also(::println)
     isPalindrome(12121).also(::println)
