@@ -22,10 +22,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/year2k23/PalindromeNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for Longest Common Prefix">
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/navigation/AppNavigationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/login/LoginScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/welcome/WelcomeScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/FormFillingApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/MviIntent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/WelcomeIntent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginEffect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/MviEffect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/MviState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/WelcomeEffect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/WelcomeState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/MviViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/WelcomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavRoutes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavigationExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/theme/Typography.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/welcome/WelcomeScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/WelcomeViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/validation/ValidationManagerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +102,10 @@
       </set>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="1WIKsDqbDgVUY6xJKSCiBo0W6Ly" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,13 +114,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -100,7 +135,7 @@
       <recent name="$PROJECT_DIR$/src/dersler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PalindromeNumberKt">
+  <component name="RunManager" selected="Kotlin.LongestCommonPrefixKt">
     <configuration name="CheckifWordEqualsSummationofTwoWordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.junechallenge.CheckifWordEqualsSummationofTwoWordsKt" />
       <module name="CompetitiveProgramming" />
@@ -117,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalParserInterpretationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.may2021.GoalParserInterpretationKt" />
+    <configuration name="LongestCommonPrefixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.year2k24.LongestCommonPrefixKt" />
       <module name="CompetitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,18 +182,27 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Codeforces" />
+      <item itemvalue="Kotlin.LongestCommonPrefixKt" />
       <item itemvalue="Kotlin.PalindromeNumberKt" />
       <item itemvalue="Kotlin.CheckifWordEqualsSummationofTwoWordsKt" />
-      <item itemvalue="Kotlin.GoalParserInterpretationKt" />
       <item itemvalue="Kotlin.MinimumNumberofOperationstoMoveAllBallstoEachBoxKt" />
       <item itemvalue="Kotlin.PartitioningIntoMinimumNumberOfDeciBinaryNumbersKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LongestCommonPrefixKt" />
         <item itemvalue="Kotlin.PalindromeNumberKt" />
         <item itemvalue="Kotlin.CheckifWordEqualsSummationofTwoWordsKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -235,6 +279,11 @@
       <workItem from="1690305295182" duration="27000" />
       <workItem from="1690305328530" duration="1299000" />
       <workItem from="1690355580353" duration="1463000" />
+      <workItem from="1714634677021" duration="129000" />
+      <workItem from="1714634811280" duration="7564000" />
+      <workItem from="1745425020090" duration="557000" />
+      <workItem from="1745425631937" duration="3170000" />
+      <workItem from="1745562142744" duration="9551000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -432,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1623337258561</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Solution for Longest Common Prefix">
+      <option name="closed" value="true" />
+      <created>1714637105331</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1714637105331</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Input object for reading from CommandLine" />
     <MESSAGE value="Solution for BootCamp.kt kotlin heroes 4 codeforces" />
     <MESSAGE value="Solution for BitwiseAND.kt april challenge leetcode" />
     <MESSAGE value="Solution for JumpGame.kt april challenge leetcode" />
@@ -479,7 +535,8 @@
     <MESSAGE value="Solution for KidsWiththeGreatestNumberofCandies.kt of leetcode." />
     <MESSAGE value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
     <MESSAGE value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
+    <MESSAGE value="Solution for Longest Common Prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for Longest Common Prefix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -526,6 +583,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/maychallenge/KClosestPointsOrigin.kt</url>
           <line>17</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
