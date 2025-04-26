@@ -23,4 +23,14 @@ sealed class LoginIntent : MviIntent {
      * Clear any error messages
      */
     object ClearError : LoginIntent()
+
+    /**
+     * Username field focus changed
+     */
+    data class UsernameFocusChanged(val isFocused: Boolean) : LoginIntent()
+
+    /**
+     * Password field focus changed
+     */
+    data class PasswordFocusChanged(val isFocused: Boolean) : LoginIntent()
 }

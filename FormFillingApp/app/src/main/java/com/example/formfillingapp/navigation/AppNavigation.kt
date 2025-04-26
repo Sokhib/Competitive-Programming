@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -18,12 +19,14 @@ import com.example.formfillingapp.ui.welcome.WelcomeScreen
 
 /**
  * Main navigation component for the app
+ *
+ * @param navigationHelper Helper for navigation operations
  */
 @Composable
-fun AppNavigation() {
+fun AppNavigation(
+    navigationHelper: NavigationHelper
+) {
     val navController = rememberNavController()
-
-    // Navigation controller
 
     NavHost(
         navController = navController,
@@ -43,9 +46,7 @@ fun AppNavigation() {
                 viewModel.effect.collect { effect ->
                     when (effect) {
                         is com.example.formfillingapp.mvi.model.LoginEffect.NavigateToWelcome -> {
-                            navController.navigate(NavRoutes.createWelcomeRoute(effect.username)) {
-                                popUpTo(NavRoutes.LOGIN) { inclusive = false }
-                            }
+                            navigationHelper.navigateToWelcome(navController, effect.username)
                         }
 
                         else -> { /* Ignore other effects */
@@ -87,7 +88,7 @@ fun AppNavigation() {
                 viewModel.effect.collect { effect ->
                     when (effect) {
                         is com.example.formfillingapp.mvi.model.WelcomeEffect.NavigateBack -> {
-                            navController.popBackStack()
+                            navigationHelper.navigateBack(navController)
                         }
                     }
                 }

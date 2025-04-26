@@ -21,9 +21,15 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
@@ -82,13 +88,17 @@ fun LoginScreen(
                     value = state.username,
                     onValueChange = { onIntent(LoginIntent.UpdateUsername(it)) },
                     label = { Text("Username") },
-                    isError = state.isUsernameError,
+                    isError = state.isUsernameTouched && state.isUsernameError,
                     supportingText = {
-                        if (state.isUsernameError) {
-                            Text("Username is required")
+                        if (state.isUsernameTouched && state.isUsernameError) {
+                            Text(state.usernameErrorMessage ?: "Username is required")
                         }
                     },
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .onFocusChanged { focusState ->
+                            onIntent(LoginIntent.UsernameFocusChanged(focusState.isFocused))
+                        },
                     keyboardOptions = KeyboardOptions(
                         keyboardType = KeyboardType.Text,
                         imeAction = ImeAction.Next
@@ -102,14 +112,18 @@ fun LoginScreen(
                     value = state.password,
                     onValueChange = { onIntent(LoginIntent.UpdatePassword(it)) },
                     label = { Text("Password") },
-                    isError = state.isPasswordError,
+                    isError = state.isPasswordTouched && state.isPasswordError,
                     supportingText = {
-                        if (state.isPasswordError) {
-                            Text("Password is required")
+                        if (state.isPasswordTouched && state.isPasswordError) {
+                            Text(state.passwordErrorMessage ?: "Password is required")
                         }
                     },
                     visualTransformation = PasswordVisualTransformation(),
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .onFocusChanged { focusState ->
+                            onIntent(LoginIntent.PasswordFocusChanged(focusState.isFocused))
+                        },
                     keyboardOptions = KeyboardOptions(
                         keyboardType = KeyboardType.Password,
                         imeAction = ImeAction.Done
@@ -118,10 +132,25 @@ fun LoginScreen(
 
                 Spacer(modifier = Modifier.height(32.dp))
 
+                // Use derivedStateOf to optimize button enabled state
+                val isFormValid by remember(state) {
+                    derivedStateOf {
+                        // Initially, if nothing is touched, allow button to be enabled
+                        if (!state.isUsernameTouched && !state.isPasswordTouched) {
+                            true
+                        } else {
+                            // Once fields are touched, validate them
+                            val isUsernameValid = !state.isUsernameError && state.username.isNotBlank()
+                            val isPasswordValid = !state.isPasswordError && state.password.isNotBlank()
+                            isUsernameValid && isPasswordValid
+                        }
+                    }
+                }
+
                 // Login button
                 Button(
                     onClick = { onIntent(LoginIntent.SubmitLogin) },
-                    enabled = !state.isLoading,
+                    enabled = !state.isLoading && isFormValid,
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text("Login")

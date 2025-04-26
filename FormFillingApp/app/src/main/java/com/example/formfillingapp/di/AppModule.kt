@@ -10,11 +10,14 @@ import dagger.hilt.components.SingletonComponent
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
-    // Add dependencies here as needed
-    // For example:
-    // @Provides
-    // @Singleton
-    // fun provideRepository(): Repository {
-    //     return RepositoryImpl()
-    // }
+    /**
+     * This module is for application-wide dependencies.
+     *
+     * Examples of dependencies that could be provided here:
+     * - Network clients (Retrofit, OkHttp)
+     * - Database instances (Room)
+     * - SharedPreferences
+     * - Repository implementations
+     * - Other application-wide services
+     */
 }

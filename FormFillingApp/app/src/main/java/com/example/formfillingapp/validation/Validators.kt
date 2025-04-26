@@ -1,13 +1,14 @@
 package com.example.formfillingapp.validation
 
 import android.util.Patterns
+import javax.inject.Inject
 
 /**
  * Validates that a string is not blank
  *
  * @property errorMessage The error message to show if validation fails
  */
-class NotBlankValidator(
+class NotBlankValidator @Inject constructor(
     private val errorMessage: String = "This field is required"
 ) : Validator<String> {
     override fun validate(value: String): ValidationResult {
@@ -25,7 +26,7 @@ class NotBlankValidator(
  * @property minLength The minimum length required
  * @property errorMessage The error message to show if validation fails
  */
-class MinLengthValidator(
+class MinLengthValidator @Inject constructor(
     private val minLength: Int,
     private val errorMessage: String = "Must be at least $minLength characters"
 ) : Validator<String> {
@@ -43,7 +44,7 @@ class MinLengthValidator(
  *
  * @property errorMessage The error message to show if validation fails
  */
-class EmailValidator(
+class EmailValidator @Inject constructor(
     private val errorMessage: String = "Invalid email address"
 ) : Validator<String> {
     override fun validate(value: String): ValidationResult {
@@ -61,7 +62,7 @@ class EmailValidator(
  * @property pattern The regex pattern to match
  * @property errorMessage The error message to show if validation fails
  */
-class PatternValidator(
+class PatternValidator @Inject constructor(
     private val pattern: Regex,
     private val errorMessage: String = "Invalid format"
 ) : Validator<String> {

@@ -22,41 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Solution for Longest Common Prefix">
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/navigation/AppNavigationTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/login/LoginScreenTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/welcome/WelcomeScreenTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/FormFillingApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/MviIntent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/WelcomeIntent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginEffect.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/MviEffect.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/MviState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/WelcomeEffect.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/WelcomeState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/MviViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/WelcomeViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavRoutes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavigationExtensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/theme/Typography.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/welcome/WelcomeScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationResult.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/WelcomeViewModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/validation/ValidationManagerTest.kt" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Initial App Structure">
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/NavigationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/UtilsModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/ValidationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavigationHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/utils/DateTimeFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/utils/Logger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/DefaultValidationManagerFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationManagerFactory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +267,7 @@
       <workItem from="1714634811280" duration="7564000" />
       <workItem from="1745425020090" duration="557000" />
       <workItem from="1745425631937" duration="3170000" />
-      <workItem from="1745562142744" duration="9551000" />
+      <workItem from="1745562142744" duration="12970000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -489,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714637105331</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Initial App Structure">
+      <option name="closed" value="true" />
+      <created>1745666825240</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1745666825240</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for BootCamp.kt kotlin heroes 4 codeforces" />
     <MESSAGE value="Solution for BitwiseAND.kt april challenge leetcode" />
     <MESSAGE value="Solution for JumpGame.kt april challenge leetcode" />
     <MESSAGE value="Solution for LongestCommonSubsequence.kt april challenge leetcode" />
@@ -536,7 +527,8 @@
     <MESSAGE value="Solution for PartitioningIntoMinimumNumberOfDeciBinaryNumbers.kt of leetcode." />
     <MESSAGE value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
     <MESSAGE value="Solution for Longest Common Prefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for Longest Common Prefix" />
+    <MESSAGE value="Initial App Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial App Structure" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -586,7 +578,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
