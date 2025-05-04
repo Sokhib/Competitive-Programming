@@ -22,25 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Initial App Structure">
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/NavigationModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/UtilsModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/ValidationModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/NavigationHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/utils/DateTimeFormatter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/utils/Logger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/DefaultValidationManagerFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/ValidationManagerFactory.kt" afterDir="false" />
+    <list default="true" id="0722901e-5e14-407d-9dce-e518adf5b995" name="Default Changelist" comment="Change everything possible with DI initialization&#10;Change validations to on the go">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/di/AppModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/intent/LoginIntent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/model/LoginState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/navigation/AppNavigation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/ui/login/LoginScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/main/java/com/example/formfillingapp/validation/Validators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/test/java/com/example/formfillingapp/mvi/viewmodel/LoginViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/login/LoginScreenTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FormFillingApp/app/src/androidTest/java/com/example/formfillingapp/ui/login/LoginScreenTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +251,9 @@
       <workItem from="1714634811280" duration="7564000" />
       <workItem from="1745425020090" duration="557000" />
       <workItem from="1745425631937" duration="3170000" />
-      <workItem from="1745562142744" duration="12970000" />
+      <workItem from="1745562142744" duration="15047000" />
+      <workItem from="1745676998892" duration="2522000" />
+      <workItem from="1746355758459" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="1230A Solution">
       <created>1579172311256</created>
@@ -481,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745666825240</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Change everything possible with DI initialization&#10;Change validations to on the go">
+      <option name="closed" value="true" />
+      <created>1745670413255</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745670413255</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solution for BitwiseAND.kt april challenge leetcode" />
     <MESSAGE value="Solution for JumpGame.kt april challenge leetcode" />
     <MESSAGE value="Solution for LongestCommonSubsequence.kt april challenge leetcode" />
     <MESSAGE value="Solution for MaximalSquare.kt april challenge leetcode" />
@@ -528,7 +521,8 @@
     <MESSAGE value="Solution for GoalParserInterpretation.kt and MinimumNumberofOperationstoMoveAllBallstoEachBox.kt" />
     <MESSAGE value="Solution for Longest Common Prefix" />
     <MESSAGE value="Initial App Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial App Structure" />
+    <MESSAGE value="Change everything possible with DI initialization&#10;Change validations to on the go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change everything possible with DI initialization&#10;Change validations to on the go" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

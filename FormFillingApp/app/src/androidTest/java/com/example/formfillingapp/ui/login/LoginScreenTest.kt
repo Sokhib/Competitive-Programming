@@ -85,7 +85,11 @@ class LoginScreenTest {
         // Given
         val state = LoginState(
             isUsernameError = true,
-            isPasswordError = true
+            isPasswordError = true,
+            isUsernameTouched = true,
+            isPasswordTouched = true,
+            usernameErrorMessage = "Username is required",
+            passwordErrorMessage = "Password is required"
         )
         val onIntent: (LoginIntent) -> Unit = mock()
 
@@ -133,5 +137,32 @@ class LoginScreenTest {
 
         // Then
         composeTestRule.onNodeWithText("Login", useUnmergedTree = true).assertIsEnabled()
+    }
+
+    @Test
+    fun loginScreen_doesNotShowErrorsInitially() {
+        // Given
+        // Initial state with errors but fields not touched
+        val state = LoginState(
+            isUsernameError = true,
+            isPasswordError = true,
+            isUsernameTouched = false,
+            isPasswordTouched = false,
+            usernameErrorMessage = "Username is required",
+            passwordErrorMessage = "Password is required"
+        )
+        val onIntent: (LoginIntent) -> Unit = mock()
+
+        // When
+        composeTestRule.setContent {
+            FormFillingAppTheme {
+                LoginScreen(state = state, onIntent = onIntent)
+            }
+        }
+
+        // Then
+        // Error messages should not be displayed because fields are not touched
+        composeTestRule.onNodeWithText("Username is required").assertDoesNotExist()
+        composeTestRule.onNodeWithText("Password is required").assertDoesNotExist()
     }
 }
