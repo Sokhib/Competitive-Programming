@@ -1,0 +1,11 @@
+# TradingView Bot Configuration
+# Rename this file to bot.properties and fill in your values
+
+# Telegram Bot Token (get from BotFather)
+bot.token=YOUR_BOT_TOKEN_HERE
+
+# Telegram Bot Username (without the @ symbol)
+bot.username=YOUR_BOT_USERNAME_HERE
+
+# Polling interval in minutes (how often to check for EMA crossings)
+polling.interval.minutes=5
