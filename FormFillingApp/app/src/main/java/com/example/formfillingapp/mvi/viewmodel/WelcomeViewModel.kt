@@ -23,6 +23,26 @@ class WelcomeViewModel @Inject constructor() : MviViewModel<WelcomeIntent, Welco
     }
 
     private suspend fun navigateBack() {
-        emitEffect(WelcomeEffect.NavigateBack)
+        // Show loading while navigating
+        updateState { copy(isLoading = true) }
+
+        try {
+            // Simulate a short delay
+            kotlinx.coroutines.delay(300)
+
+            // Navigate back
+            emitEffect(WelcomeEffect.NavigateBack)
+
+            // Reset loading state
+            updateState { copy(isLoading = false) }
+        } catch (e: Exception) {
+            // Handle error
+            updateState { 
+                copy(
+                    isLoading = false,
+                    errorMessage = e.message ?: "An error occurred while navigating back"
+                )
+            }
+        }
     }
 }

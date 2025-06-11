@@ -11,6 +11,7 @@ import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
@@ -36,6 +37,8 @@ class WelcomeViewModelTest {
     fun `initial state is correct`() = runTest {
         val initialState = viewModel.state.value
         assertEquals("", initialState.username)
+        assertEquals(false, initialState.isLoading)
+        assertEquals(null, initialState.errorMessage)
     }
 
     @Test
@@ -56,5 +59,18 @@ class WelcomeViewModelTest {
             val effect = awaitItem()
             assertTrue(effect is WelcomeEffect.NavigateBack)
         }
+    }
+
+    @Test
+    fun `navigate back sets loading state`() = runTest {
+        // When navigating back
+        viewModel.processIntent(WelcomeIntent.NavigateBack)
+
+        // Then loading state should be set to true initially
+        assertTrue(viewModel.state.value.isLoading)
+
+        // After navigation completes, loading state should be false
+        testDispatcher.scheduler.advanceUntilIdle()
+        assertFalse(viewModel.state.value.isLoading)
     }
 }

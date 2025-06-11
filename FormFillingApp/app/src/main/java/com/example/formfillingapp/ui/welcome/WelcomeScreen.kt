@@ -10,11 +10,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Button
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -24,13 +22,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.formfillingapp.mvi.intent.WelcomeIntent
 import com.example.formfillingapp.mvi.model.WelcomeState
+import com.example.formfillingapp.ui.common.StateWrapper
 
 @Composable
 fun WelcomeScreen(
     state: WelcomeState,
     onIntent: (WelcomeIntent) -> Unit
 ) {
-    Scaffold(
+    StateWrapper(
+        state = state,
         topBar = {
             TopAppBar(
                 title = { Text("Welcome") },
@@ -48,11 +48,10 @@ fun WelcomeScreen(
                 )
             )
         }
-    ) { paddingValues ->
+    ) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues)
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
@@ -73,7 +72,8 @@ fun WelcomeScreen(
 
             Button(
                 onClick = { onIntent(WelcomeIntent.NavigateBack) },
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                enabled = !state.isLoading
             ) {
                 Text("Go Back")
             }
